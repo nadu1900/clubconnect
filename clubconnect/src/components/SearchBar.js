@@ -1,30 +1,30 @@
-// SearchBar.js
 
 import React, { useState } from 'react';
+import './SearchBar.css'; // Import CSS file for styling
 
-const SearchBar = ({ onSearch }) => {
-  const [query, setQuery] = useState('');
 
-  const handleChange = (event) => {
-    setQuery(event.target.value);
+const SearchBar = () => {
+  const [searchTerm, setSearchTerm] = useState('');
+
+
+  const handleInputChange = (event) => {
+    setSearchTerm(event.target.value);
   };
 
-  const handleSubmit = (event) => {
-    event.preventDefault();
-    onSearch(query);
-  };
 
   return (
-    <form onSubmit={handleSubmit}>
+    <div className="search-container">
       <input
         type="text"
-        placeholder="Search..."
-        value={query}
-        onChange={handleChange}
+        className="search-bar"
+        placeholder="Search by school, club, or event name"
+        value={searchTerm}
+        onChange={handleInputChange}
       />
-      <button type="submit">Search</button>
-    </form>
+    </div>
   );
 };
 
+
 export default SearchBar;
+

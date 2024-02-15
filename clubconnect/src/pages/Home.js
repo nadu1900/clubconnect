@@ -3,15 +3,19 @@ import Header from "../components/Header";
 import { EventData, EventPageButton } from '../data/EventData'; // Import named exports
 import { SchoolData, SchoolPageButton } from '../data/SchoolData'; // Import named exports
 import '../styles/Home.css';
+import NavBar from '../components/NavBar';
+import SearchBar from '../components/SearchBar';
 
 export default function Home() {
   return (
     <>
-      <Header />
-      <h2>Welcome to Club Connect!</h2>
-      <p>Explore our platform:</p>
+
+      <h2>ClubConnect</h2>
+  
       {/* Display Event Data */}
       {/* EventPageButton */}
+      <NavBar />
+      <SearchBar />
       <EventPageButton />
       <div className="event-container">
         {EventData.map(event => ( // Changed from 'events' to 'EventData'
