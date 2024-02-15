@@ -1,0 +1,17 @@
+.search-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-bar {
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 20px;
+  outline: none;
+  width: 300px; /* Adjust width as needed */
+}
+
+.search-bar::placeholder {
+  color: #888;
+}
