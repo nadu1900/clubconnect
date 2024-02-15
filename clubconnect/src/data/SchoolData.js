@@ -1,4 +1,6 @@
 import '../styles/SchoolData.css';
+import { Link } from 'react-router-dom'; 
+
 
 const SchoolData = [
     {
@@ -32,6 +34,11 @@ const SchoolData = [
   
   ];
   
-  export default SchoolData;
+  const SchoolPageButton = () => (
+    <Link to="/schools ">
+      <button className="school-button">All Schools</button>
+    </Link>
+  );
   
+  export { SchoolData, SchoolPageButton };  
   

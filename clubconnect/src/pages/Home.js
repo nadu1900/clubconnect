@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from "../components/Header";
 import { EventData, EventPageButton } from '../data/EventData'; // Import named exports
-import SchoolData from '../data/SchoolData';
+import { SchoolData, SchoolPageButton } from '../data/SchoolData'; // Import named exports
 import '../styles/Home.css';
 
 export default function Home() {
@@ -27,6 +27,7 @@ export default function Home() {
 
       {/* Display School Data */}
       <h2>Discover Schools</h2>
+      <SchoolPageButton />
       <div className="school-container">
         {SchoolData.map(school => (
           <div key={school.id} className="school-card">
