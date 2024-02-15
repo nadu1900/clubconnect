@@ -10,7 +10,7 @@ const EventData = [
     time: "10:00 AM",
     location: "Location 1",
     description: "Description of Event 1",
-    image: "https://via.placeholder.com/150", // Replace with actual image URL
+    image: require("./eventimages/Brown Modern Computer Programming Course Instagram Post-2.png"), 
   },
   {
     id: 2,
@@ -19,7 +19,7 @@ const EventData = [
     time: "11:00 AM",
     location: "Location 2",
     description: "Description of Event 2",
-    image: "https://via.placeholder.com/150", // Replace with actual image URL
+    image: require("./eventimages/Green and Purple Modern Speakers Instagram Post.png"), // Replace with actual image URL
   },
   {
     id: 3,
@@ -28,7 +28,7 @@ const EventData = [
     time: "12:00 PM",
     location: "Location 3",
     description: "Description of Event 3",
-    image: "https://via.placeholder.com/150", // Replace with actual image URL
+    image: require("./eventimages/basketball tournament.png"), // Replace with actual image URL
   },
   // Three additional events added below:
   {
@@ -38,7 +38,7 @@ const EventData = [
     time: "1:00 PM",
     location: "Location 4",
     description: "Description of Event 4",
-    image: "https://via.placeholder.com/150", // Replace with actual image URL
+    image: require("./eventimages/Orange And Cream Minimalist Happy Thanksgiving Day Instagram Post.png"), // Replace with actual image URL
   },
   {
     id: 5,
@@ -47,7 +47,7 @@ const EventData = [
     time: "2:00 PM",
     location: "Location 5",
     description: "Description of Event 5",
-    image: "https://via.placeholder.com/150", // Replace with actual image URL
+    image: require("./eventimages/MCAT Post.png"), // Replace with actual image URL
   },
   {
     id: 6,
@@ -56,7 +56,7 @@ const EventData = [
     time: "3:00 PM",
     location: "Location 6",
     description: "Description of Event 6",
-    image: "https://via.placeholder.com/150", // Replace with actual image URL
+        image: require("./eventimages/black-is-king-image-4d4dd8ce-1596123053.jpeg"), // Replace with actual image URL
   },
 ];
 
