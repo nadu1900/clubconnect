@@ -1,7 +1,5 @@
-// App.js
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import NavBar from './components/NavBar';
 import Home from './pages/Home';
 import Schools from './pages/Schools';
 import Events from './pages/Events';
@@ -19,7 +17,6 @@ const App = () => {
           <Route path="/events" element={<Events />} />
           <Route path="/about" element={<About />} />
         </Routes> 
-          <NavBar />
       </div>
     </Router>
   );

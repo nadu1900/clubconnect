@@ -1,0 +1,47 @@
+.event-container {
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+  
+  .event-card {
+    display: inline-block;
+    margin: 10px;
+    min-width: 200px;
+    max-width: 300px;
+  }
+  
+  .event-card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .school-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px; /* Add margin between event and school sections */
+  }
+  
+  .school-card {
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 250px;
+    text-align: center;
+  }
+  
+  .school-card img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px; /* Add margin below the image */
+  }
+  
+  .school-card h3 {
+    margin-top: 0; /* Remove top margin for consistency */
+  }
+  
+  .school-card p {
+    margin: 5px 0;
+  }
+  
