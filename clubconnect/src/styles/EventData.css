@@ -55,4 +55,23 @@
       flex-basis: calc(100% - 20px);
     }
   }
+  .events-button {
+    background-color: #c6d1c6; /* Green background */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    margin-left: 10px;
+  }
+  
+  .events-button:hover {
+    background-color: #9eae9f; /* Darker green when hovered */
+  }
+
   

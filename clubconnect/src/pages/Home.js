@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <>
 
-      <h2>ClubConnect</h2>
+      <h1>ClubConnect</h1>
   
       {/* Display Event Data */}
       {/* EventPageButton */}
@@ -30,7 +30,6 @@ export default function Home() {
       </div>
 
       {/* Display School Data */}
-      <h2>Discover Schools</h2>
       <SchoolPageButton />
       <div className="school-container">
         {SchoolData.map(school => (
