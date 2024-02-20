@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import './SearchBar.css'; // Import CSS file for styling
+import './SearchBar.css'; 
 
 
 const SearchBar = () => {
