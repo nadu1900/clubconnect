@@ -1,0 +1,13 @@
+.filter-container {
+  margin-bottom: 20px;
+
+}
+
+.filter-container label {
+  margin-right: 10px;
+}
+
+.filter-container select,
+.filter-container input[type="date"] {
+  margin-right: 10px;
+}
