@@ -19,7 +19,7 @@ const EventData = [
     time: "11:00 AM",
     location: "Location 2",
     description: "Description of Event 2",
-    image: require("./eventimages/Green and Purple Modern Speakers Instagram Post.png"), // Replace with actual image URL
+    image: require("./eventimages/Green and Purple Modern Speakers Instagram Post.png"),
   },
   {
     id: 3,
@@ -28,9 +28,8 @@ const EventData = [
     time: "12:00 PM",
     location: "Location 3",
     description: "Description of Event 3",
-    image: require("./eventimages/basketball tournament.png"), // Replace with actual image URL
+    image: require("./eventimages/basketball tournament.png"), 
   },
-  // Three additional events added below:
   {
     id: 4,
     title: "Event 4",
@@ -38,7 +37,7 @@ const EventData = [
     time: "1:00 PM",
     location: "Location 4",
     description: "Description of Event 4",
-    image: require("./eventimages/Orange And Cream Minimalist Happy Thanksgiving Day Instagram Post.png"), // Replace with actual image URL
+    image: require("./eventimages/Orange And Cream Minimalist Happy Thanksgiving Day Instagram Post.png"), 
   },
   {
     id: 5,
@@ -47,7 +46,7 @@ const EventData = [
     time: "2:00 PM",
     location: "Location 5",
     description: "Description of Event 5",
-    image: require("./eventimages/MCAT Post.png"), // Replace with actual image URL
+    image: require("./eventimages/MCAT Post.png"), 
   },
   {
     id: 6,
@@ -56,7 +55,7 @@ const EventData = [
     time: "3:00 PM",
     location: "Location 6",
     description: "Description of Event 6",
-        image: require("./eventimages/black-is-king-image-4d4dd8ce-1596123053.jpeg"), // Replace with actual image URL
+        image: require("./eventimages/black-is-king-image-4d4dd8ce-1596123053.jpeg"), 
   },
 ];
 

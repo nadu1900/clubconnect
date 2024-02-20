@@ -1,22 +1,25 @@
 .nav-links {
-  display: flex;
+  display:flex;
   justify-content: center;
   align-items: center;
-  border-bottom: 2px solid black;
+  gap: 60px;
+  border-bottom: 2px solid rgb(198, 194, 194);
+  background-color: #f8f9fa;
 }
-
 
 .button {
   padding: 10px 20px;
-  background-color: lightgray;
+  background-color: #ebeef1;
+  color: white;
   cursor: pointer;
   transition: background-color 0.3s ease;
-  margin-right: 150px;
+  margin-right: 20px;
   margin-bottom: 0px;
-  font-style: bold;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
 }
 
-
 .button:hover {
-  background-color: #ccc;
+  background-color: #b3bcc5;
 }
