@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const EventData = [
   {
     id: 1,
-    title: "Event 1",
+    title: "Coding Sesh with NSBE",
     date: "2024-02-13",
     time: "10:00 AM",
     location: "Location 1",
@@ -14,7 +14,7 @@ const EventData = [
   },
   {
     id: 2,
-    title: "Event 2",
+    title: "Headshot Events",
     date: "2024-02-14",
     time: "11:00 AM",
     location: "Location 2",
@@ -23,7 +23,7 @@ const EventData = [
   },
   {
     id: 3,
-    title: "Event 3",
+    title: "Baskebtall Tournament",
     date: "2024-02-15",
     time: "12:00 PM",
     location: "Location 3",
@@ -32,7 +32,7 @@ const EventData = [
   },
   {
     id: 4,
-    title: "Event 4",
+    title: "Thanksgiving Post",
     date: "2024-02-16",
     time: "1:00 PM",
     location: "Location 4",
@@ -65,5 +65,7 @@ const EventPageButton = () => (
     <button className="events-button">All Events</button>
   </Link>
 );
+
+
 
 export { EventData, EventPageButton };
