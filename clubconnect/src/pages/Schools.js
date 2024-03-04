@@ -1,5 +1,19 @@
 import NavBar from "../components/NavBar";
 import SearchBar from "../components/SearchBar";
+<<<<<<< HEAD
+import DataFetch from "../data/DataFetch";
+
+
+export default function Schools(){
+    return(
+        <>
+        <h1> ClubConnect</h1>
+        <NavBar />
+        <SearchBar />
+        <DataFetch />
+        </>
+    )
+=======
 import { SchoolData } from '../data/SchoolData';
 import { Link } from 'react-router-dom';
 
@@ -23,4 +37,5 @@ export default function Schools() {
       </div>
     </>
   );
+>>>>>>> 523d382eaa4e591f1735a1d723d51fe3a57ca732
 }
