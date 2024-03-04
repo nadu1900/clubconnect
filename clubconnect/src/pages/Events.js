@@ -15,7 +15,6 @@ export default function Events(){
         <NavBar />
         <SearchBar />
         <FilteredEvents />
-        <h2> Events Page</h2>
          <div className="event-container">
         {EventData.map(event => ( // Changed from 'events' to 'EventData'
           <div key={event.id} className="event-card">

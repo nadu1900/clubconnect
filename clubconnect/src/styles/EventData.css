@@ -11,6 +11,7 @@
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
+    overflow: hidden;
   }
   
   .event-card:hover {
@@ -24,26 +25,27 @@
   }
   
   .event-details {
-    padding: 16px;
+    padding: 24px;
   }
   
   .event-title {
     font-size: 18px;
     font-weight: bold;
     margin-bottom: 8px;
+    color: #333;
   }
   
   .event-meta {
     color: #777777;
     font-size: 14px;
-    margin-bottom: 8px;
+    margin-bottom: 12px;
   }
   
   .event-description {
-    font-size: 14px;
+    font-size: 16px;
+    color: #555;
   }
   
-  /* Optional: Add media queries for responsive design */
   @media (max-width: 768px) {
     .event-card {
       flex-basis: calc(50% - 20px);
@@ -56,7 +58,7 @@
     }
   }
   .events-button {
-    background-color: #c6d1c6; /* Green background */
+    background-color: #a8c3df; 
     border: none;
     color: white;
     padding: 10px 20px;
@@ -71,7 +73,7 @@
   }
   
   .events-button:hover {
-    background-color: #9eae9f; /* Darker green when hovered */
+    background-color: #87a6c7;
   }
 
   
