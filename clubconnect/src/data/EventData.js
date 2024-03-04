@@ -7,14 +7,37 @@ const EventPageButton = () => (
   </Link>
 );
 
-const EventData = () => {
+function EventData() {
+
   const [events, setEvents] = useState([]);
+
+  const fetchInfo = () => {
+    url = 'https://engage-api.campuslabs.com/api/v3.0/events/event?excludeCoHosts=true&includeSubmissionIds=true&IncludeRsvpCounts=true&key=esk_test_b3de37458fa25302baed2b212950fd89'
+    return fetch(url)
+      .then(res => res.json())
+      .then(d => setEvents(d));
+  };
+
+  useEffect(() => {
+    fetchInfo();
+  }, fetch)
 
   useEffect(() => {
     const fetchEvents = async () => {
       try {
         // Fetch event data from the API
-        const response = await fetch('https://engage-api.campuslabs.com/api/v3.0/events/event?excludeCoHosts=true&includeSubmissionIds=true&IncludeRsvpCounts=true&key=esk_test_b3de37458fa25302baed2b212950fd89');
+        const response = await fetch('https://engage-api.campuslabs.com/api/v3.0/events/event?excludeCoHosts=true&includeSubmissionIds=true&IncludeRsvpCounts=true&key=esk_test_b3de37458fa25302baed2b212950fd89', {
+          method: 'GET',
+          mode: 'no-cors',
+          header: {
+            'Content-Type': 'application/json*',
+            'Access-Control-Allow-Headers': 'Content-Type, Authorization',
+            // 'Access-Control-Allow-Origin': '*',
+          }
+
+        });
+
+
         if (!response.ok) {
           throw new Error('Failed to fetch events');
         }
@@ -29,15 +52,13 @@ const EventData = () => {
           location: event.address.name, // Assuming address is nested under the event object
           description: event.description
         }));
-
-        setEvents(normalizedEvents);
       } catch (error) {
         console.error('Error fetching events:', error);
       }
     };
 
     fetchEvents();
-  }, []);
+  }, [setEvents(normalizedEvents)]);
 
   return (
     <div>

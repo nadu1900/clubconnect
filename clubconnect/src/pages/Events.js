@@ -15,7 +15,7 @@ export default function Events(){
         <NavBar />
         <SearchBar />
         <FilteredEvents />
-         <div className="event-container">
+         {/* <div className="event-container">
         {EventData.map(event => ( // Changed from 'events' to 'EventData'
           <div key={event.id} className="event-card">
             <img src={event.image} alt={event.title} />
@@ -25,7 +25,7 @@ export default function Events(){
             <p>{event.description}</p>
           </div>
         ))}
-      </div>
+      </div> */}
         </>
     )
 }
