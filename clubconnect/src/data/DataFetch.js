@@ -17,12 +17,7 @@ function FetchData() {
           header: {
             'Content-Type': 'application/json*',
             'Access-Control-Allow-Headers': 'Content-Type, Authorization',
-            'Access-Control-Allow-Origin': '*',
-
-
-
-        
-             
+            'Access-Control-Allow-Origin': '*',   
           }
         });
         if (!response.ok) {
