@@ -13,7 +13,7 @@ function FetchData() {
     
         const response = await fetch('https://engage-api.campuslabs.com/api/v3.0/events/event?excludeCoHosts=true&includeSubmissionIds=true&IncludeRsvpCounts=true&key=esk_test_b3de37458fa25302baed2b212950fd89', {
           method: 'GET',
-        
+
           header: {
             'Content-Type': 'application/json*',
             'Access-Control-Allow-Headers': 'Content-Type, Authorization',
