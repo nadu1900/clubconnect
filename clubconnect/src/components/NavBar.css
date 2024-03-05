@@ -1,13 +1,24 @@
+<<<<<<< HEAD
 
 .nav-links {
   display: flex;
   justify-content: center;
   align-items: center;
   border-bottom: 2px solid black;
+=======
+.nav-links {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  border-bottom: 2px solid rgb(198, 194, 194);
+  background-color: #f8f9fa;
+>>>>>>> origin/Develop
 }
 
 .button {
   padding: 10px 20px;
+<<<<<<< HEAD
   background-color: lightgray;
   cursor: pointer;
   transition: background-color 0.3s ease;
@@ -19,4 +30,19 @@
 
 .button:hover {
   background-color: #ccc;
+=======
+  background-color: #ebeef1;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-right: 20px;
+  margin-bottom: 0px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background-color: #b3bcc5;
+>>>>>>> origin/Develop
 }

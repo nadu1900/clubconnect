@@ -5,13 +5,32 @@
 }
 
 .search-bar {
+<<<<<<< HEAD
   padding: 10px;
   border: 1px solid black;
   border-radius: 20px;
   outline: none;
   width: 300px; /* Adjust width as needed */
+=======
+  padding: 12px 20px;
+  border: 2px solid #9fc1e5; 
+  border-radius: 25px;
+  outline: none;
+  width: 300px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  font-size: 16px; 
+  transition: border-color 0.3s ease; 
+>>>>>>> origin/Develop
 }
 
 .search-bar::placeholder {
   color: #888;
 }
+<<<<<<< HEAD
+=======
+
+.search-bar:hover {
+  border-color: #0b3767; 
+}
+>>>>>>> origin/Develop
