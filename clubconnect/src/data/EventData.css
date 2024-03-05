@@ -1,0 +1,33 @@
+.eventContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .event {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    max-width: 400px;
+    background-color: #f9f9f9;
+  }
+  
+  .eventName {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+  }
+  
+  .eventDescription {
+    margin-bottom: 10px;
+  }
+  
+  .eventDateTime {
+    font-style: italic;
+    margin-bottom: 5px;
+  }
+  
+  .eventLocation {
+    font-weight: bold;
+  }
+  

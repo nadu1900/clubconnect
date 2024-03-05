@@ -1,10 +1,13 @@
 import React from 'react';
-import { EventData, EventPageButton } from '../data/EventData'; // Import named exports
+// import { EventData, EventPageButton } from '../data/EventData'; // Import named exports
 import { SchoolData, SchoolPageButton } from '../data/SchoolData'; // Import named exports and SchoolCards component
 import '../styles/Home.css';
 import NavBar from '../components/NavBar';
 import SearchBar from '../components/SearchBar';
 import FilteredEvents from "../data/FilteredEvents"; // Import FilteredEvents component
+import CallBack from "../data/CallBack";
+
+
 
 export default function Home() {
   return (
@@ -16,9 +19,11 @@ export default function Home() {
       <NavBar />
       <FilteredEvents />
       <SearchBar /> 
-      <EventPageButton />
+      {/* <EventPageButton /> */}
       <div className="event-container">
-        <EventData />
+        {/* <EventData /> */}
+        <CallBack />
+        
       </div>
       {/* Display School Data */}
       <SchoolPageButton />
