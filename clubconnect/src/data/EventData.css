@@ -1,3 +1,10 @@
+.eventImage {
+  max-width: 100%; /* Ensure the image doesn't exceed its container width */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Prevents unwanted margin-bottom */
+  margin-top: 10px; /* Adjust margin as needed */
+}
+
 .eventContainer {
     display: flex;
     flex-direction: column;
@@ -22,12 +29,4 @@
     margin-bottom: 10px;
   }
   
-  .eventDateTime {
-    font-style: italic;
-    margin-bottom: 5px;
-  }
-  
-  .eventLocation {
-    font-weight: bold;
-  }
   

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import eventData from './Event.json';
-// import './EventData.css'; 
+import './EventData.css'; 
 
 function EventDisplay() {
   const [events, setEvents] = useState([]);
@@ -15,9 +15,15 @@ function EventDisplay() {
       {events.map(event => (
         <div key={event.id} className="event">
           <h2>{event.name}</h2>
-          <p>{event.description}</p>
-          <p>{event.date}, {event.time}</p>
-          <p>{event.location}</p>
+          {event.imageUrl && (
+            <img src={event.imageUrl}  className="eventImage" alt={event.name}/>
+          )}
+          {/* {event.imagePath && !event.imageUrl && (
+            <img src={event.imagePath} alt={event.name} />
+          )} */}
+          {/* <p>{event.description}</p> */}
+          {/* <p>{event.date}, {event.time}</p> */}
+          {/* <p>{event.location}</p> */}
 
         </div>
       ))}
