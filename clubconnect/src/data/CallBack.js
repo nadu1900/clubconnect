@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import eventData from './Event.json';
-import './EventData.css'; 
+import './EventData.css';
 
 function EventDisplay() {
   const [events, setEvents] = useState([]);
@@ -12,21 +12,24 @@ function EventDisplay() {
 
   return (
     <div className="eventContainer">
-      {events.map(event => (
-        <div key={event.id} className="event">
-          <h2>{event.name}</h2>
-          {event.imageUrl && (
-            <img src={event.imageUrl}  className="eventImage" alt={event.name}/>
-          )}
-          {/* {event.imagePath && !event.imageUrl && (
-            <img src={event.imagePath} alt={event.name} />
-          )} */}
-          {/* <p>{event.description}</p> */}
-          {/* <p>{event.date}, {event.time}</p> */}
-          {/* <p>{event.location}</p> */}
-
-        </div>
-      ))}
+      <div className="carousel">
+        {events.map(event => (
+          <div key={event.id} className="carouselItem">
+            <div className="event">
+              <h2 className="eventName">{event.name}</h2>
+              {event.imageUrl && (
+                <img src={event.imageUrl} className="eventImage" alt={event.name} />
+              )}
+              {/* {event.imagePath && !event.imageUrl && (
+                <img src={event.imagePath} alt={event.name} />
+              )} */}
+              {/* <p className="eventDescription">{event.description}</p> */}
+              {/* <p>{event.date}, {event.time}</p> */}
+              {/* <p>{event.location}</p> */}
+            </div>
+          </div>
+        ))}
+      </div>
     </div>
   );
 }

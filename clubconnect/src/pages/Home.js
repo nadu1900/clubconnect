@@ -13,11 +13,8 @@ export default function Home() {
   return (
     <>
       <h1>ClubConnect</h1>
-  
-      {/* Display Event Data */}
-      {/* EventPageButton */}
       <NavBar />
-      <FilteredEvents />
+      {/* <FilteredEvents /> */}
       <SearchBar /> 
       {/* <EventPageButton /> */}
       <div className="event-container">
