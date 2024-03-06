@@ -1,24 +1,35 @@
-
 .carousel {
-  display: flex;  
-  flex-direction: column-reverse; /* Change to vertical */
-  overflow-y: auto; /* Enable vertical scrolling */
-  scroll-snap-type: y mandatory; /* Enable snap scrolling */
-  height: 300px; /* Set the height of the carousel */
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  overflow-x: hidden; /* Hide scrollbar */
+  height: 300px;
+  scroll-snap-type: x mandatory; /* Enable snap-scrolling */
 }
 
 .carouselItem {
   scroll-snap-align: start;
   flex: 0 0 auto;
-  height: 100%; /* Adjust height as needed */
-  width: 100%; /* Width of each carousel item */
+  height: 100%;
+  width: 400px; /* Adjust card width as needed */
+  margin-right: 20px; /* Adjust spacing between cards */
+  animation: scrollAnimation 5s infinite; /* Adjust duration and timing as needed */
+}
+
+@keyframes scrollAnimation {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%); /* Slide the carousel to the left */
+  }
 }
 
 .eventImage {
-  max-width: 100%; /* Ensure the image doesn't exceed its container width */
-  height: auto; /* Maintain aspect ratio */
-  display: block; /* Prevents unwanted margin-bottom */
-  margin-top: 10px; /* Adjust margin as needed */
+  width: 100%; 
+  height: 200px; 
+  object-fit: cover; 
+  border-radius: 5px; 
 }
 
 .eventContainer {
@@ -26,21 +37,20 @@
   flex-direction: column;
   align-items: center;
 }
-  
+
 .event {
   border: 1px solid #ccc;
   border-radius: 5px;
   padding: 10px;
-  margin: 10px;
-  max-width: 400px;
+  max-width: 100%; /* Adjust max-width to prevent overflow */
   background-color: #f9f9f9;
 }
-  
+
 .eventName {
   font-size: 1.5rem;
   margin-bottom: 5px;
 }
-  
+
 .eventDescription {
   margin-bottom: 10px;
 }
