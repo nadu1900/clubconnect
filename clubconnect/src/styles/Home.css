@@ -1,6 +1,10 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x:hidden;
+}
 
 h1 {
-  
   font-size: 4rem; /* Increase font size for impact */
   font-weight: 600; /* Use a slightly lighter weight */
   color: #e4d0cc; /* Vibrant red color */

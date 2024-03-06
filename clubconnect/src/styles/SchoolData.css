@@ -11,6 +11,8 @@
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
     width: calc(20% - 20px); /* Adjust the width to fit five cards on one line */
+    flex-direction: row;
+
   }
   
   .school-card:hover {
