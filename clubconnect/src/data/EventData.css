@@ -1,24 +1,24 @@
 
 .carousel {
   display: flex;  
-  flex-direction: column-reverse; /* Change to vertical */
-  overflow-y: auto; /* Enable vertical scrolling */
-  scroll-snap-type: y mandatory; /* Enable snap scrolling */
-  height: 300px; /* Set the height of the carousel */
+  flex-direction: column-reverse; 
+  overflow-y: auto; 
+  scroll-snap-type: y mandatory; 
+  height: 300px; 
 }
 
 .carouselItem {
   scroll-snap-align: start;
   flex: 0 0 auto;
-  height: 100%; /* Adjust height as needed */
-  width: 100%; /* Width of each carousel item */
+  height: 100%;
+  width: 100%; 
 }
 
 .eventImage {
-  max-width: 100%; /* Ensure the image doesn't exceed its container width */
-  height: auto; /* Maintain aspect ratio */
-  display: block; /* Prevents unwanted margin-bottom */
-  margin-top: 10px; /* Adjust margin as needed */
+  max-width: 100%; 
+  height: auto; 
+  display: block; 
+  margin-top: 10px; 
 }
 
 .eventContainer {
