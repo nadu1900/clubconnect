@@ -4,6 +4,7 @@ import SearchBar from "../components/SearchBar";
 // import { EventData } from "../data/EventData";
 import React, { useState, useEffect } from 'react';
 import FilteredEvents from "../data/FilteredEvents";
+import AllEvents from "../data/AllEvents";
 
 export default function Events(){
 
@@ -14,6 +15,8 @@ export default function Events(){
         <NavBar />
         <SearchBar />
         <FilteredEvents />
+        <AllEvents />
+
          {/* <div className="event-container">
         {EventData.map(event => ( // Changed from 'events' to 'EventData'
           <div key={event.id} className="event-card">
