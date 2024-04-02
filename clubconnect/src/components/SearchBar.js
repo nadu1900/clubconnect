@@ -4,47 +4,76 @@ import eventData from '../data/Event.json';
 
 const SearchBar = () => {
   const [searchTerm, setSearchTerm] = useState('');
-  const [events, setEvents] = useState([]);
+  const [filteredEvents, setFilteredEvents] = useState([]);
+  const [searchSuggestions, setSearchSuggestions] = useState([]);
 
   useEffect(() => {
-    // Set the events data from the local JSON file
-    setEvents(eventData.items);
+   
+    setFilteredEvents(eventData.items);
   }, []);
 
-  // Filter events based on search term
-  const filteredEvents = events.filter(event =>
-   event.title && event.title.toLowerCase().includes(searchTerm.toLowerCase())
-  );
+  const handleSearch = (searchTerm) => {
+    setSearchTerm(searchTerm);
 
-  // Handle input change in the search bar
-  const handleSearchChange = event => {
-    setSearchTerm(event.target.value);
+      if (searchTerm.trim() === '') {
+      
+          setSearchSuggestions([]);
+    
+          setFilteredEvents(eventData.items);
+          return;
+        }
+    
+
+ 
+    const filtered = eventData.items.filter(event =>
+      event.name.toLowerCase().includes(searchTerm.toLowerCase())
+    );
+    setFilteredEvents(filtered);
+
+  
+    generateSearchSuggestions(searchTerm);
   };
 
-  const handleSearch = () => {
-    // Handle search action if needed
-    // For example, you can perform some action when the search button is clicked
+  const generateSearchSuggestions = (searchTerm) => {
+
+    const suggestions = eventData.items
+      .filter(event => event.name.toLowerCase().includes(searchTerm.toLowerCase()))
+      .map(event => event.name);
+    setSearchSuggestions(suggestions);
   };
+
+
+
+
+  const handleKeyPress = (e) => {
+    // Handle pressing Enter key in the search input
+    if (e.key === 'Enter') {
+      handleSearch(searchTerm);
+    }
+  };
+
+
 
   return (
     <div className="search-container">
       <input
         type="text"
         className="search-bar"
-        placeholder="Search by school, club, or event name"
+        placeholder="Search events by name..."
         value={searchTerm}
-        onChange={handleSearchChange}
+        onChange={(e) => handleSearch(e.target.value)}
+        onKeyPress ={handleKeyPress}
       />
-      <ul>
-        {filteredEvents.map(event => (
-          <li key={event.id}>{event.title}</li>
-        ))}
-      </ul>
 
-      <button className="search-button" onClick={handleSearch}>
-        <i className="fas fa-search"></i>
-      </button>
-      <div className="search-line"></div>
+
+      <div>
+
+        <ul>
+          {searchSuggestions.map((suggestion, index) => (
+            <li key={index}>{suggestion}</li>
+          ))}
+        </ul>
+      </div>
     </div>
   );
 };

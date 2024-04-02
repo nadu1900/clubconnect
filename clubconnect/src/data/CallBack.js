@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import eventData from './Event.json';
+import eventTData from './EventT.json';
 import './EventData.css';
 
 function EventDisplay() {
@@ -7,7 +8,8 @@ function EventDisplay() {
 
   useEffect(() => {
     // Set the events data from the local JSON file
-    setEvents(eventData.items);
+    setEvents([...eventData.items], [...eventTData.items]);
+    //setEvents();
   }, []);
 
   return (
