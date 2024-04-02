@@ -14,17 +14,7 @@ export default function Events(){
         <NavBar />
         <SearchBar />
         <FilteredEvents />
-         {/* <div className="event-container">
-        {EventData.map(event => ( // Changed from 'events' to 'EventData'
-          <div key={event.id} className="event-card">
-            <img src={event.image} alt={event.title} />
-            <h3>{event.title}</h3>
-            <p>{event.date}, {event.time}</p>
-            <p>{event.location}</p>
-            <p>{event.description}</p>
-          </div>
-        ))}
-      </div> */}
+        
         </>
     )
 }

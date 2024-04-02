@@ -1,83 +1,81 @@
 .school-container {
-    display: flex;
-    padding: 20px;
-  }
-  
+  display: flex;
+  padding: 20px;
+}
+
+.school-card {
+  flex: 0 0 auto;
+  margin-right: 20px;
+  background-color: #f7fafc; /* Light background color */
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  width: calc(20% - 20px); /* Adjust the width to fit five cards on one line */
+}
+
+.school-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Larger shadow on hover */
+}
+
+.school-image {
+  width: 100%;
+  height: 200px; /* Set a fixed height for the image */
+  object-fit: cover; /* Ensure the image covers the entire area */
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.school-details {
+  padding: 16px;
+}
+
+.school-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #333333; /* Darker title color */
+}
+
+.school-meta {
+  color: #777777;
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.school-description {
+  font-size: 14px;
+  color: #555555; /* Slightly darker description color */
+}
+
+/* Optional: Add media queries for responsive design */
+@media (max-width: 768px) {
   .school-card {
-    flex: 0 0 auto;
-    margin-right: 20px;
-    background-color: #f7fafc; /* Light background color */
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
-    width: calc(20% - 20px); /* Adjust the width to fit five cards on one line */
-    flex-direction: row;
+    flex-basis: calc(50% - 20px);
+  }
+}
 
+@media (max-width: 576px) {
+  .school-card {
+    flex-basis: calc(100% - 20px);
   }
-  
-  .school-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Larger shadow on hover */
-  }
-  
-  .school-image {
-    width: 100%;
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
-  }
-  
-  .school-details {
-    padding: 16px;
-  }
-  
-  .school-title {
-    font-size: 18px;
-    font-weight: bold;
-    margin-bottom: 8px;
-    color: #333333; /* Darker title color */
-  }
-  
-  .school-meta {
-    color: #777777;
-    font-size: 14px;
-    margin-bottom: 8px;
-  }
-  
-  .school-description {
-    font-size: 14px;
-    color: #555555; /* Slightly darker description color */
-  }
-  
-  /* Optional: Add media queries for responsive design */
-  @media (max-width: 768px) {
-    .school-card {
-      flex-basis: calc(50% - 20px);
-    }
-  }
-  
-  @media (max-width: 576px) {
-    .school-card {
-      flex-basis: calc(100% - 20px);
-    }
-  }
-  
-  .school-button {
-    background-color: #c6d1c6; 
-    border: none;
-    color: white;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-    margin-left: 10px;
+}
 
-  }
-  
-  .events-button:hover {
-    background-color: #9eae9f; 
-  }
+.school-button {
+  background-color: #c6d1c6; 
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  margin-left: 10px;
+}
 
+.events-button:hover {
+  background-color: #9eae9f; 
+}

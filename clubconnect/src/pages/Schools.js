@@ -11,14 +11,14 @@ export default function Schools() {
       <SearchBar />
       <div className="school-container">
         {SchoolData.map((school, index) => (
-          <a key={index} href={school.website} target="_blank" rel="noopener noreferrer" className="school-card">
+           <Link key={index} to={`/schools/${school.slug}`} className="school-card">
             <div>
               <img src={school.image} alt={school.name} />
               <h3>{school.name}</h3>
               <p>{school.location}</p>
               <p>{school.description}</p>
             </div>
-          </a>
+          </Link>
         ))}
       </div>
     </>

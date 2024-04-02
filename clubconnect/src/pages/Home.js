@@ -4,8 +4,9 @@ import { SchoolData, SchoolPageButton } from '../data/SchoolData'; // Import nam
 import '../styles/Home.css';
 import NavBar from '../components/NavBar';
 import SearchBar from '../components/SearchBar';
-import FilteredEvents from "../data/FilteredEvents"; // Import FilteredEvents component
 import CallBack from "../data/CallBack";
+import { Link } from 'react-router-dom';
+
 
 
 
@@ -14,26 +15,20 @@ export default function Home() {
     <>
       <h1>ClubConnect</h1>
       <NavBar />
-      {/* <FilteredEvents /> */}
-      <SearchBar /> 
-      {/* <EventPageButton /> */}
+      <SearchBar />
       <div className="event-container">
-        {/* <EventData /> */}
         <CallBack />
-        
       </div>
-      {/* Display School Data */}
-      <SchoolPageButton />
       <div className="school-container">
         {SchoolData.map((school, index) => (
-          <a key={index} href={school.website} target="_blank" rel="noopener noreferrer" className="school-card">
+          <Link key={school.id} to={`/schools/${school.slug}`} className="school-card">
             <div>
               <img src={school.image} alt={school.name} />
               <h3>{school.name}</h3>
               <p>{school.location}</p>
               <p>{school.description}</p>
             </div>
-          </a>
+          </Link>
         ))}
       </div>
     </>

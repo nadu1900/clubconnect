@@ -1,0 +1,111 @@
+  
+  /* Style for the whole page */
+  .school-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .school-name {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  /* Header styles */
+  header {
+    text-align: center;
+    margin-bottom: 40px;
+    margin: 0 auto;
+    
+  }
+
+  .location {
+    font-size: 1.2em;
+    color: #555;
+  }
+  
+  /* Section styles */
+  section {
+    margin-bottom: 30px;
+  }
+  
+  h2 {
+    color: #007A99;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    line-height: 1.6;
+  }
+  
+  /* Link styles */
+  a {
+    text-decoration: none;
+    color: #007A99;
+    font-weight: bold;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Footer styles */
+  footer {
+    text-align: center;
+  }
+  
+  .back-link {
+    display: block;
+    margin-top: 20px;
+  }
+  
+  image-section {
+    text-align: center;
+  }
+ 
+.center-image {
+    width: 80%; /* Adjust the width to make the image larger */
+    max-height: 400px; /* Set a maximum height to maintain aspect ratio */
+    display: block;
+    margin: 0 auto; 
+    border-radius: 0px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+.about-section {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .about-section h2 {
+    color: #007A99;
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .about-section p {
+    font-size: 1.2em;
+    line-height: 1.6;
+  }
+  
+  .about-section .website-link {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007A99;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .about-section .website-link:hover {
+    background-color: #005c7d;
+  }
+  

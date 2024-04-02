@@ -2,11 +2,11 @@ import '../styles/SchoolData.css';
 import './schoolimages/download.png'
 import { Link } from 'react-router-dom'; 
 
-
 const SchoolData = [
     {
       id: 1,
       name: "Lehigh University",
+      slug: "lehigh",
       location: "Bethlehem, PA",
       description: "Private research university in Bethlehem, Pennsylvania.",
       image: require("./schoolimages/download.png"), 
@@ -15,6 +15,7 @@ const SchoolData = [
     {
       id: 2,
       name: "Lafayette College",
+      slug: "lafayette",
       location: "Easton, PA",
       description: "Private liberal arts college in Easton, Pennsylvania.",
       image: require("./schoolimages/Lafayette-Leopards-logo.png"), 
@@ -23,6 +24,7 @@ const SchoolData = [
     {
       id: 3,
       name: "Moravian University",
+      slug: "moravian",
       location: "Bethlehem, PA",
       description: "Private liberal arts college in Bethlehem, Pennsylvania.",
       image: require("./schoolimages/momo.png"), 
@@ -31,6 +33,7 @@ const SchoolData = [
     {
       id: 4,
       name: "Muhlenberg College",
+      slug: "muhlenberg",
       location: "Allentown, PA",
       description: "Private liberal arts college in Allentown, Pennsylvania.",
       image: require("./schoolimages/horsy.jpg"),
@@ -44,7 +47,6 @@ const SchoolData = [
       <button className="school-button">All Schools</button>
     </Link>
   );
-  
-  
+
   export { SchoolData, SchoolPageButton };  
   
