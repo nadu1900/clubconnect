@@ -1,5 +1,4 @@
   
-  /* Style for the whole page */
   .school-page {
     max-width: 800px;
     margin: 0 auto;
@@ -13,7 +12,6 @@
     text-align: center;
   }
   
-  /* Header styles */
   header {
     text-align: center;
     margin-bottom: 40px;
@@ -26,7 +24,6 @@
     color: #555;
   }
   
-  /* Section styles */
   section {
     margin-bottom: 30px;
   }
@@ -41,7 +38,6 @@
     line-height: 1.6;
   }
   
-  /* Link styles */
   a {
     text-decoration: none;
     color: #007A99;
@@ -52,7 +48,6 @@
     text-decoration: underline;
   }
   
-  /* Footer styles */
   footer {
     text-align: center;
   }
@@ -67,8 +62,8 @@
   }
  
 .center-image {
-    width: 80%; /* Adjust the width to make the image larger */
-    max-height: 400px; /* Set a maximum height to maintain aspect ratio */
+    width: 80%; 
+    max-height: 400px; 
     display: block;
     margin: 0 auto; 
     border-radius: 0px;

@@ -14,7 +14,6 @@ export default function Events(){
         <NavBar />
         <SearchBar />
         <FilteredEvents />
-        
         </>
     )
 }

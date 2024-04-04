@@ -2,6 +2,9 @@ import NavBar from "../components/NavBar";
 import SearchBar from "../components/SearchBar";
 import { SchoolData } from '../data/SchoolData';
 import { Link } from 'react-router-dom';
+import './Schools.css';
+
+
 
 export default function Schools() {
   return (
@@ -10,6 +13,7 @@ export default function Schools() {
       <NavBar />
       <SearchBar />
       <div className="school-container">
+      <div className="carousel">
         {SchoolData.map((school, index) => (
            <Link key={index} to={`/schools/${school.slug}`} className="school-card">
             <div>
@@ -20,6 +24,7 @@ export default function Schools() {
             </div>
           </Link>
         ))}
+      </div>
       </div>
     </>
   );

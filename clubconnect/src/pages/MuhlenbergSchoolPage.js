@@ -2,15 +2,15 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 
-const LafSchoolPage = () => {
+const MuhlenbergSchoolPage = () => {
     return (
       <div className="school-page">
         <header>
-          <h1 className="school-name">Lafayette College</h1>
+          <h1 className="school-name">Muhlenberg University</h1>
         </header>
         
         <section className="image-section">
-          <img src="https://www.lafayette.edu/wp-content/uploads/2022/03/Homepage-pics_June2020-06-1-1440x810.jpg" alt="Lehigh University" className="center-image" />
+          <img src="https://www.appily.com/sites/default/files/styles/max_1200/public/images/hero/college/213543_hero.jpg?itok=cYh0CRvU" alt="Lehigh University" className="center-image" />
         </section>
   
         <section className="about-section">
@@ -29,5 +29,5 @@ const LafSchoolPage = () => {
     );
   };
   
-  export default LafSchoolPage;
+  export default MuhlenbergSchoolPage;
   
