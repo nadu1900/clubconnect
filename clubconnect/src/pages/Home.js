@@ -1,11 +1,12 @@
 import React from 'react';
-// import { EventData, EventPageButton } from '../data/EventData'; // Import named exports
 import { SchoolData, SchoolPageButton } from '../data/SchoolData'; // Import named exports and SchoolCards component
 import '../styles/Home.css';
 import NavBar from '../components/NavBar';
 import SearchBar from '../components/SearchBar';
 import FilteredEvents from "../data/FilteredEvents"; // Import FilteredEvents component
-import CallBack from "../data/CallBack";
+import LehighData from "../data/LehighData";
+import LafayetteData from "../data/LafayatteData";
+
 
 
 
@@ -14,12 +15,10 @@ export default function Home() {
     <>
       <h1>ClubConnect</h1>
       <NavBar />
-      {/* <FilteredEvents /> */}
       <SearchBar /> 
-      {/* <EventPageButton /> */}
       <div className="event-container">
-        {/* <EventData /> */}
-        <CallBack />
+        <LehighData />
+        <LafayetteData />
         
       </div>
       {/* Display School Data */}
