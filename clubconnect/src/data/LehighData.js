@@ -7,8 +7,7 @@ function EventDisplay() {
   const [events, setEvents] = useState([]);
 
   useEffect(() => {
-    // Set the events data from the local JSON file
-    setEvents([...eventData.items], [...eventTData.items]);
+    setEvents(eventData.items);
   }, []);
 
   return (
@@ -20,7 +19,7 @@ function EventDisplay() {
               <h2 className="eventName">{event.name}</h2>
               {event.imageUrl && (
                 <img src={event.imageUrl} className="eventImage" alt={event.name} />
-              )}
+              )}              
             </div>
           </div>
         ))}

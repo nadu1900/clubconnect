@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './LehighSchoolPage.css';
-import CallBack from "../data/CallBack";
+import LehighData from "../data/LehighData";
 
 
 const LehighSchoolPage = () => {
@@ -23,7 +23,7 @@ const LehighSchoolPage = () => {
 
 
       <section className="events-section">
-        <CallBack />
+        <LehighData />
       </section>
       <footer>
         <Link to="/schools" className="back-link">Back to Schools</Link>
