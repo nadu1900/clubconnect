@@ -6,7 +6,6 @@ function EventDisplay() {
   const [events, setEvents] = useState([]);
 
   useEffect(() => {
-    // Set the events data from the local JSON file
     setEvents(eventData.items);
   }, []);
 
