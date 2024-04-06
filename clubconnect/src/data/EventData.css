@@ -1,19 +1,20 @@
+
+
 .carousel {
   display: flex;
   justify-content: flex-start;
   flex-direction: row; 
   overflow-x: auto;
   height: auto;
-  scroll-snap-type: x mandatory; 
+  /* scroll-snap-type: unset; */
 }
 
 .carouselItem {
-  scroll-snap-align: start;
   flex: 0 0 auto;
   height: auto; 
   width: 400px;
   margin-right: 20px;
-  animation: scrollAnimation 7s linear infinite; 
+  animation: scrollAnimation 3s linear infinite; 
 }
 .carouselafItem{
   scroll-snap-align: start;
@@ -21,7 +22,7 @@
   height: auto; 
   width: 400px;
   margin-right: 20px;
-  animation: scrollAnimation 7s linear infinite; 
+  animation: scrollAnimation 3s linear infinite; 
 }
 
 @keyframes scrollAnimation {
