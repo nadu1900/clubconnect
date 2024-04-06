@@ -1,10 +1,12 @@
 import React from 'react';
 // import { EventData, EventPageButton } from '../data/EventData'; // Import named exports
-import { SchoolData, SchoolPageButton } from '../data/SchoolData'; // Import named exports and SchoolCards component
+import { SchoolData } from '../data/SchoolData'; // Import named exports and SchoolCards component
 import '../styles/Home.css';
 import NavBar from '../components/NavBar';
 import SearchBar from '../components/SearchBar';
 import CallBack from "../data/CallBack";
+import FilteredEvents from "../data/FilteredEvents";
+
 import { Link } from 'react-router-dom';
 
 
@@ -16,6 +18,7 @@ export default function Home() {
       <h1>ClubConnect</h1>
       <NavBar />
       <SearchBar />
+      <FilteredEvents />
       <div className="event-container">
         <CallBack />
       </div>
