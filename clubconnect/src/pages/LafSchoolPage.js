@@ -18,8 +18,6 @@ const LafSchoolPage = () => {
           <p>Lehigh is a community of future makers. The 7,000+ undergraduate and graduate students on our picturesque campus are inspired to think deeply, driven to create pragmatic solutions, and encouraged to innovate collaboratively. Our faculty and staff are committed to creating an inclusive and dynamic community dedicated to positively impacting the future.</p>
           <a href="https://lehigh.edu/" className="website-link" target="_blank" rel="noopener noreferrer">Visit Website</a>
         </section>
-  
-  
         <section className="events-section">
         </section>
         <footer>

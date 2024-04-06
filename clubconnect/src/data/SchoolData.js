@@ -1,4 +1,3 @@
-import '../styles/SchoolData.css';
 import './schoolimages/download.png'
 import { Link } from 'react-router-dom'; 
 

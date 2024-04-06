@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import eventData from './LafMockData.json';
+import eventData from './MoravianMockData.json';
 import './EventData.css';
 
 function EventDisplay() {
@@ -8,16 +8,17 @@ function EventDisplay() {
   useEffect(() => {
     setEvents(eventData.items);
   }, []);
+
   return (
     <div className="eventContainer">
       <div className="carousel">
         {events.map(event => (
-          <div key={event.id} className="carouselafItem">
+          <div key={event.id} className="carouselItem">
             <div className="event">
               <h2 className="eventName">{event.name}</h2>
               {event.imageUrl && (
                 <img src={event.imageUrl} className="eventImage" alt={event.name} />
-              )}
+              )}              
             </div>
           </div>
         ))}

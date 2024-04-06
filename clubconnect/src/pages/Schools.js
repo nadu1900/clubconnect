@@ -2,7 +2,6 @@ import NavBar from "../components/NavBar";
 import SearchBar from "../components/SearchBar";
 import { SchoolData } from '../data/SchoolData';
 import { Link } from 'react-router-dom';
-import './Schools.css';
 
 
 
