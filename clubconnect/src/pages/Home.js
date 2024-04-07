@@ -6,7 +6,7 @@ import NavBar from '../components/NavBar';
 import SearchBar from '../components/SearchBar';
 import FilteredEvents from "../data/FilteredEvents"; // Import FilteredEvents component
 import CallBack from "../data/CallBack";
-
+import EventManager from '../components/EventManager';
 
 
 export default function Home() {
@@ -15,7 +15,7 @@ export default function Home() {
       <h1>ClubConnect</h1>
       <NavBar />
       {/* <FilteredEvents /> */}
-      <SearchBar /> 
+     <EventManager/>
       {/* <EventPageButton /> */}
       <div className="event-container">
         {/* <EventData /> */}

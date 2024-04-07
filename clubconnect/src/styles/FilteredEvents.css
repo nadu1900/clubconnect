@@ -4,6 +4,45 @@ body {
   color: #333;
 }
 
+.event-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Space between cards */
+}
+
+.event-card {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+
+.event-info {
+    flex-grow: 1;
+}
+
+.event-name {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.event-desc {
+    margin: 5px 0 0;
+    font-size: 0.9rem;
+}
+
+.event-image {
+    width: 60px; /* Small fixed width */
+    height: 60px; /* Maintain aspect ratio */
+    border-radius: 50%;
+    margin-left: 10px;
+    object-fit: cover; /* Ensure the image covers the area */
+}
+
+
 /* Button */
 .filter-toggle-btn {
   background-color: #007bff;
