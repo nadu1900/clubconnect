@@ -7,13 +7,7 @@ function EventDisplay() {
   const [events, setEvents] = useState([]);
 
   useEffect(() => {
-<<<<<<< HEAD:clubconnect/src/data/CallBack.js
-    // Set the events data from the local JSON file
-    setEvents([...eventData.items], [...eventTData.items]);
-    //setEvents();
-=======
     setEvents(eventData.items);
->>>>>>> f6eba35da664c44f506286de36e4c11c5a194c3a:clubconnect/src/data/LehighData.js
   }, []);
 
   return (

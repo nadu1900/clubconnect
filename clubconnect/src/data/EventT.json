@@ -1,69 +1,3 @@
-<<<<<<< HEAD
-{
-  "items": [
-    {
-      "id": 50001,
-      "institutionId": 5000,
-      "organizationId": 55001,
-      "submittedByOrganizationId": 55001,
-      "organizationIds": [55001],
-      "eventSubmissionId": 1,
-      "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/pvrpmci-spa-outdoor-cocoon-individual-1675108929.jpg",
-      "name": "Tech Innovators Conference",
-      "description": "A conference showcasing the latest in technology and innovation.",
-      "startsOn": "2024-04-10T09:00:00+00:00",
-      "endsOn": "2024-04-12T17:00:00+00:00",
-      "address": {
-        "name": "Tech University Conference Center",
-        "city": "Techville",
-        "state": "Techstate"
-      },
-      "theme": "Innovation",
-      "state": {
-        "status": "Approved"
-      },
-      "visibility": "Public",
-      "type": "Conference",
-      "submittedById": {
-        "communityMemberId": 510001,
-        "accountId": "tech-user-001",
-        "username": "innovator101",
-        "campusEmail": "innovator101@techuniv.edu"
-      }
-    },
-    {
-      "id": 50002,
-      "institutionId": 5000,
-      "organizationId": 55002,
-      "submittedByOrganizationId": 55002,
-      "organizationIds": [55002],
-      "eventSubmissionId": 2,
-      "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/pvrpmci-spa-outdoor-cocoon-individual-1675108929.jpg",
-      "name": "Coding Bootcamp",
-      "description": "Learn to code in multiple languages in this intensive bootcamp.",
-      "startsOn": "2024-05-01T10:00:00+00:00",
-      "endsOn": "2024-05-15T16:00:00+00:00",
-      "address": {
-        "name": "Tech University Tech Hall",
-        "city": "Techville",
-        "state": "Techstate"
-      },
-      "theme": "Education",
-      "state": {
-        "status": "Approved"
-      },
-      "visibility": "Public",
-      "type": "Workshop",
-      "submittedById": {
-        "communityMemberId": 510002,
-        "accountId": "tech-user-002",
-        "username": "codeMaster",
-        "campusEmail": "codemaster@techuniv.edu"
-      }
-    }
-  ]
-}
-=======
 
 {
     "items": [
@@ -130,4 +64,3 @@
     ]
   }
   
->>>>>>> f6eba35da664c44f506286de36e4c11c5a194c3a
