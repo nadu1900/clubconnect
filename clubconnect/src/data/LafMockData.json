@@ -36,7 +36,7 @@
                 "communityMemberId": 123,
                 "accountId": "abc123",
                 "username": "user1",
-                "campusEmail": "user1@example.com"
+                "campusEmail": "user1@lafayette.edu"
             },
             "accessCode": "ABC123",
             "rsvpSettings": null,
@@ -82,7 +82,7 @@
                 "communityMemberId": 124,
                 "accountId": "abc124",
                 "username": "user2",
-                "campusEmail": "user2@example.com"
+                "campusEmail": "user2@lafayette.edu"
             }
         },
         {
@@ -118,7 +118,7 @@
             "sourceSubmissionId": null,
             "submittedByAccountId": null,
             "submittedById": {
-                "campusEmail": "user3@example.com"
+                "campusEmail": "user3@lafayette.edu"
             }
         },
         {
@@ -154,7 +154,7 @@
             "sourceSubmissionId": null,
             "submittedByAccountId": null,
             "submittedById": {
-                "campusEmail": "user4@example.com"
+                "campusEmail": "user4@lafayette.edu"
             }
         },
         {
@@ -190,7 +190,7 @@
             "sourceSubmissionId": null,
             "submittedByAccountId": null,
             "submittedById": {
-                "campusEmail": "user5@example.com"
+                "campusEmail": "user5@lafayette.edu"
             }
         },
         {
@@ -226,7 +226,7 @@
             "sourceSubmissionId": null,
             "submittedByAccountId": null,
             "submittedById": {
-                "campusEmail": "user6@example.com"
+                "campusEmail": "user6@lafayette.edu"
             }
         },
         {
@@ -262,7 +262,7 @@
             "sourceSubmissionId": null,
             "submittedByAccountId": null,
             "submittedById": {
-                "campusEmail": "user7@example.com"
+                "campusEmail": "user7@lafayette.edu"
             }
         },
         {
@@ -298,7 +298,7 @@
             "sourceSubmissionId": null,
             "submittedByAccountId": null,
             "submittedById": {
-                "campusEmail": "user8@example.com"
+                "campusEmail": "user8@lafayette.edu"
             }
         },
         {
@@ -334,7 +334,7 @@
             "sourceSubmissionId": null,
             "submittedByAccountId": null,
             "submittedById": {
-                "campusEmail": "user9@example.com"
+                "campusEmail": "user9@lafayette.edu"
             }
         }
     ]

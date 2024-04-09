@@ -3,14 +3,15 @@ import SearchBar from "../components/SearchBar";
 import React, { useState, useEffect } from 'react';
 import FilteredEvents from "../data/FilteredEvents";
 import AllEvents from "../data/AllEvents";
+import EventManager from "../components/EventManager";
 
 export default function Events(){
     return(
         <>
         <h1>ClubConnect</h1>
         <NavBar />
-        <SearchBar />
-        <FilteredEvents />
+        <EventManager/>
+   
         </>
     )
 }

@@ -3,13 +3,15 @@ import FilteredEvents from '../data/FilteredEvents';
 import SearchBar from './SearchBar';
 import eventData from '../data/Event.json';
 import eventTData from '../data/EventT.json';
+import eventLaf from '../data/LafMockData.json';
+import eventMor from '../data/MoravianMockData.json';
 
 
 const EventManager = () => {
     const [searchTerm, setSearchTerm] = useState('');
     const [schoolFilter, setSchoolFilter] = useState('');
     const [timeFilter, setTimeFilter] = useState('');
-    const combinedEvents = [...eventTData.items, ...eventData.items];
+    const combinedEvents = [...eventTData.items, ...eventData.items, ...eventLaf.items, ...eventMor.items];
     const [filteredEvents, setFilteredEvents] = useState(combinedEvents);
 
 
@@ -21,7 +23,9 @@ const EventManager = () => {
 
         if (schoolFilter) {
             const domain = schoolFilter === 'lehigh' ? '@lehigh.edu' :
-                           schoolFilter === 'techuniv' ? '@techuniv.edu' : '';
+                           schoolFilter === 'techuniv' ? '@techuniv.edu' : 
+                           schoolFilter == 'lafayette' ? '@lafayette.edu' : 
+                           schoolFilter == 'morv' ? '@morv.edu' : ''; 
             filtered = filtered.filter(event =>
                 event.submittedById && event.submittedById.campusEmail.endsWith(domain)
             );

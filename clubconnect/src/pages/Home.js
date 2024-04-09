@@ -22,7 +22,6 @@ export default function Home() {
       <NavBar />
       <SearchBar />
       <div className="event-container">
-      <FilteredEvents/>
         <LehighData />
         <LafayetteData />
         <MoravianData />
