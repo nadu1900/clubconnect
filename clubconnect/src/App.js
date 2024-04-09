@@ -21,11 +21,12 @@ const App = () => {
           <Route path="/schools" element={<Schools />} />
           <Route path="/events" element={<Events />} />
           <Route path="/about" element={<About />} />
-          <Route path="schools/lehigh" element={<LehighSchoolPage />} /> 
-          <Route path="schools/lafayette" element={<LafSchoolPage />} /> {/* Add this route */}
-          <Route path="schools/moravian" element={<MoravianSchoolPage />} /> {/* Add this route */}
-          <Route path="schools/muhlenberg" element={<MuhlenbergSchoolPage />} /> {/* Add this route */}
-        </Routes> 
+          <Route path="/schools/lehigh" element={<LehighSchoolPage />} />
+          <Route path="/schools/lafayette" element={<LafSchoolPage />} />
+          <Route path="/schools/moravian" element={<MoravianSchoolPage />} />
+          <Route path="/schools/muhlenberg" element={<MuhlenbergSchoolPage />} />
+
+        </Routes>
       </div>
     </Router>
   );
