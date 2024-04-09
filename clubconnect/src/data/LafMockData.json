@@ -1,0 +1,341 @@
+{
+    "skip": 0,
+    "take": 25,
+    "totalItems": 25,
+    "items": [
+        {
+            "id": 1,
+            "institutionId": 1234,
+            "organizationId": 5678,
+            "submittedByOrganizationId": 5678,
+            "organizationIds": [
+                5678
+            ],
+            "eventSubmissionId": 0,
+            "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLq4CWq-gjCGJ4S8bo32Za8__YuQciPBu4qg&s",
+            "name": "Event 1",
+            "description": "<p>This is the description for Event 1.</p>",
+            "startsOn": "2024-04-06T08:00:00+00:00",
+            "endsOn": "2024-04-06T10:00:00+00:00",
+            "address": {},
+            "theme": "Theme 1",
+            "benefits": [],
+            "categories": [],
+            "state": {
+                "eventId": 1,
+                "status": "Approved",
+                "comments": " ",
+                "updatedByAccountId": "00000000-0000-0000-0000-000000000000"
+            },
+            "visibility": "Public",
+            "type": "Event",
+            "originalSubmissionId": null,
+            "sourceSubmissionId": null,
+            "submittedByAccountId": null,
+            "submittedById": {
+                "communityMemberId": 123,
+                "accountId": "abc123",
+                "username": "user1",
+                "campusEmail": "user1@example.com"
+            },
+            "accessCode": "ABC123",
+            "rsvpSettings": null,
+            "legacyKey": null,
+            "autoSendRatingNotifications": false,
+            "hasSentRatingNotifications": false,
+            "evaluationQuestions": null,
+            "allowDisplayOnTranscript": false
+        },
+        {
+            "id": 2,
+            "institutionId": 1234,
+            "organizationId": 5679,
+            "submittedByOrganizationId": 5679,
+            "organizationIds": [
+                5679
+            ],
+            "eventSubmissionId": 0,
+            "imageUrl": "https://campuslife.lafayette.edu/wp-content/uploads/sites/7/2015/06/CampusLiving_Welcome.jpg",
+            "name": "Lafayette College Alumni Reunion Weekend",
+            "description": "<p>This is the description for Event 2.</p>",
+            "startsOn": "2024-04-07T09:00:00+00:00",
+            "endsOn": "2024-04-07T11:00:00+00:00",
+            "address": {
+                "locationId": null,
+                "name": "Location 2"
+            },
+            "theme": "Theme 2",
+            "benefits": [],
+            "categories": [],
+            "state": {
+                "eventId": 2,
+                "status": "Approved",
+                "comments": " ",
+                "updatedByAccountId": "00000000-0000-0000-0000-000000000000"
+            },
+            "visibility": "Public",
+            "type": "Event",
+            "originalSubmissionId": null,
+            "sourceSubmissionId": null,
+            "submittedByAccountId": null,
+            "submittedById": {
+                "communityMemberId": 124,
+                "accountId": "abc124",
+                "username": "user2",
+                "campusEmail": "user2@example.com"
+            }
+        },
+        {
+            "id": 3,
+            "institutionId": 1234,
+            "organizationId": 5680,
+            "submittedByOrganizationId": 5680,
+            "organizationIds": [
+                5680
+            ],
+            "eventSubmissionId": 0,
+            "imageUrl": "https://about.lafayette.edu/wp-content/uploads/sites/3/2022/11/About-Pics_770x433_enrollment.jpg",
+            "name": "Music and Arts Showcase",
+            "description": "<p>This is the description for Event 3.</p>",
+            "startsOn": "2024-04-08T10:00:00+00:00",
+            "endsOn": "2024-04-08T12:00:00+00:00",
+            "address": {
+                "locationId": null,
+                "name": "Location 3"
+            },
+            "theme": "Theme 3",
+            "benefits": [],
+            "categories": [],
+            "state": {
+                "eventId": 3,
+                "status": "Approved",
+                "comments": " ",
+                "updatedByAccountId": "00000000-0000-0000-0000-000000000000"
+            },
+            "visibility": "Public",
+            "type": "Event",
+            "originalSubmissionId": null,
+            "sourceSubmissionId": null,
+            "submittedByAccountId": null,
+            "submittedById": {
+                "campusEmail": "user3@example.com"
+            }
+        },
+        {
+            "id": 4,
+            "institutionId": 1234,
+            "organizationId": 5681,
+            "submittedByOrganizationId": 5681,
+            "organizationIds": [
+                5681
+            ],
+            "eventSubmissionId": 0,
+            "imageUrl": "https://www.mcall.com/wp-content/uploads/migration/2020/07/22/VPTKY6IF2ZG6FBUPLUSIM2IJXQ.jpg?w=1024",
+            "name": "Student Government Elections",
+            "description": "<p>This is the description for Event 4.</p>",
+            "startsOn": "2024-04-09T11:00:00+00:00",
+            "endsOn": "2024-04-09T13:00:00+00:00",
+            "address": {
+                "locationId": null,
+                "name": "Location 4"
+            },
+            "theme": "Theme 4",
+            "benefits": [],
+            "categories": [],
+            "state": {
+                "eventId": 4,
+                "status": "Approved",
+                "comments": " ",
+                "updatedByAccountId": "00000000-0000-0000-0000-000000000000"
+            },
+            "visibility": "Public",
+            "type": "Event",
+            "originalSubmissionId": null,
+            "sourceSubmissionId": null,
+            "submittedByAccountId": null,
+            "submittedById": {
+                "campusEmail": "user4@example.com"
+            }
+        },
+        {
+            "id": 5,
+            "institutionId": 1234,
+            "organizationId": 5682,
+            "submittedByOrganizationId": 5682,
+            "organizationIds": [
+                5682
+            ],
+            "eventSubmissionId": 0,
+            "imageUrl": "https://about.lafayette.edu/wp-content/uploads/sites/3/2022/11/About-Pics-Homepage03-470x264.jpg",
+            "name": "Sustainability Summit",
+            "description": "<p>This is the description for Event 5.</p>",
+            "startsOn": "2024-04-10T12:00:00+00:00",
+            "endsOn": "2024-04-10T14:00:00+00:00",
+            "address": {
+                "locationId": null,
+                "name": "Location 5"
+            },
+            "theme": "Theme 5",
+            "benefits": [],
+            "categories": [],
+            "state": {
+                "eventId": 5,
+                "status": "Approved",
+                "comments": " ",
+                "updatedByAccountId": "00000000-0000-0000-0000-000000000000"
+            },
+            "visibility": "Public",
+            "type": "Event",
+            "originalSubmissionId": null,
+            "sourceSubmissionId": null,
+            "submittedByAccountId": null,
+            "submittedById": {
+                "campusEmail": "user5@example.com"
+            }
+        },
+        {
+            "id": 6,
+            "institutionId": 1234,
+            "organizationId": 5683,
+            "submittedByOrganizationId": 5683,
+            "organizationIds": [
+                5683
+            ],
+            "eventSubmissionId": 0,
+            "imageUrl": "https://news.lafayette.edu/wp-content/blogs.dir/2/files/2019/11/OBC-Sara-and-Diane-Gallery-1024x683.jpg",
+            "name": "Lafayette College Arts Festival",
+            "description": "<p>This is the description for Event 6.</p>",
+            "startsOn": "2024-04-11T13:00:00+00:00",
+            "endsOn": "2024-04-11T15:00:00+00:00",
+            "address": {
+                "locationId": null,
+                "name": "Location 6"
+            },
+            "theme": "Theme 6",
+            "benefits": [],
+            "categories": [],
+            "state": {
+                "eventId": 6,
+                "status": "Approved",
+                "comments": " ",
+                "updatedByAccountId": "00000000-0000-0000-0000-000000000000"
+            },
+            "visibility": "Public",
+            "type": "Event",
+            "originalSubmissionId": null,
+            "sourceSubmissionId": null,
+            "submittedByAccountId": null,
+            "submittedById": {
+                "campusEmail": "user6@example.com"
+            }
+        },
+        {
+            "id": 7,
+            "institutionId": 1234,
+            "organizationId": 5684,
+            "submittedByOrganizationId": 5684,
+            "organizationIds": [
+                5684
+            ],
+            "eventSubmissionId": 0,
+            "imageUrl": "https://www.higheredjobs.com/images/instProfile/header-15642.jpg?41ED95BA-EEE1-146A-CBF98AB7FCC38A24",
+            "name": "Sports Gala",
+            "description": "<p>This is the description for Event 7.</p>",
+            "startsOn": "2024-04-12T14:00:00+00:00",
+            "endsOn": "2024-04-12T16:00:00+00:00",
+            "address": {
+                "locationId": null,
+                "name": "Location 7"
+            },
+            "theme": "Theme 7",
+            "benefits": [],
+            "categories": [],
+            "state": {
+                "eventId": 7,
+                "status": "Approved",
+                "comments": " ",
+                "updatedByAccountId": "00000000-0000-0000-0000-000000000000"
+            },
+            "visibility": "Public",
+            "type": "Event",
+            "originalSubmissionId": null,
+            "sourceSubmissionId": null,
+            "submittedByAccountId": null,
+            "submittedById": {
+                "campusEmail": "user7@example.com"
+            }
+        },
+        {
+            "id": 8,
+            "institutionId": 1234,
+            "organizationId": 5685,
+            "submittedByOrganizationId": 5685,
+            "organizationIds": [
+                5685
+            ],
+            "eventSubmissionId": 0,
+            "imageUrl": "https://admissions.lafayette.edu/wp-content/uploads/sites/5/2021/05/Campus_Tours20210401115118-470x264.jpg",
+            "name": "Diversity and Inclusion Workshop",
+            "description": "<p>This is the description for Event 8.</p>",
+            "startsOn": "2024-04-13T15:00:00+00:00",
+            "endsOn": "2024-04-13T17:00:00+00:00",
+            "address": {
+                "locationId": null,
+                "name": "Location 8"
+            },
+            "theme": "Theme 8",
+            "benefits": [],
+            "categories": [],
+            "state": {
+                "eventId": 8,
+                "status": "Approved",
+                "comments": " ",
+                "updatedByAccountId": "00000000-0000-0000-0000-000000000000"
+            },
+            "visibility": "Public",
+            "type": "Event",
+            "originalSubmissionId": null,
+            "sourceSubmissionId": null,
+            "submittedByAccountId": null,
+            "submittedById": {
+                "campusEmail": "user8@example.com"
+            }
+        },
+        {
+            "id": 9,
+            "institutionId": 1234,
+            "organizationId": 5686,
+            "submittedByOrganizationId": 5686,
+            "organizationIds": [
+                5686
+            ],
+            "eventSubmissionId": 0,
+            "imageUrl": "https://today.lafayette.edu/wp-content/uploads/sites/433/2020/05/XLC-committee.gif",
+            "name": "Speaker Series: Leaders from Lafayette College",
+            "description": "<p>This is the description for Event 9.</p>",
+            "startsOn": "2024-04-14T16:00:00+00:00",
+            "endsOn": "2024-04-14T18:00:00+00:00",
+            "address": {
+                "locationId": null,
+                "name": "Location 9"
+            },
+            "theme": "Theme 9",
+            "benefits": [],
+            "categories": [],
+            "state": {
+                "eventId": 9,
+                "status": "Approved",
+                "comments": " ",
+                "updatedByAccountId": "00000000-0000-0000-0000-000000000000"
+            },
+            "visibility": "Public",
+            "type": "Event",
+            "originalSubmissionId": null,
+            "sourceSubmissionId": null,
+            "submittedByAccountId": null,
+            "submittedById": {
+                "campusEmail": "user9@example.com"
+            }
+        }
+    ]
+}

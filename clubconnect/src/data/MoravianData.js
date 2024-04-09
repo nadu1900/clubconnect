@@ -1,29 +1,29 @@
 import React, { useState, useEffect } from 'react';
-import eventData from './Event.json';
-
+import eventData from './MoravianMockData.json';
+import './EventData.css';
 
 function EventDisplay() {
   const [events, setEvents] = useState([]);
 
   useEffect(() => {
-    // Set the events data from the local JSON file
     setEvents(eventData.items);
   }, []);
 
   return (
-    <div className="eventConta">
+    <div className="eventContainer">
+      <div className="carousel">
         {events.map(event => (
-          <div key={event.id} className="caroum">
+          <div key={event.id} className="carouselItem">
             <div className="event">
               <h2 className="eventName">{event.name}</h2>
               {event.imageUrl && (
                 <img src={event.imageUrl} className="eventImage" alt={event.name} />
-              )}
+              )}              
             </div>
           </div>
         ))}
-</div>
+      </div>
+    </div>
   );
 }
-
 export default EventDisplay;

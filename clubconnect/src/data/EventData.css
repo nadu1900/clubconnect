@@ -1,19 +1,28 @@
+
+
 .carousel {
   display: flex;
-  justify-content: center;
-  flex-direction: row;
-  overflow-x: hidden; /* Hide scrollbar */
-  height: 300px;
-  scroll-snap-type: x mandatory; /* Enable snap-scrolling */
+  justify-content: flex-start;
+  flex-direction: row; 
+  overflow-x: auto;
+  height: auto;
+  /* scroll-snap-type: unset; */
 }
 
 .carouselItem {
+  flex: 0 0 auto;
+  height: auto; 
+  width: 400px;
+  margin-right: 20px;
+  animation: scrollAnimation 3s linear infinite; 
+}
+.carouselafItem{
   scroll-snap-align: start;
   flex: 0 0 auto;
-  height: 100%;
-  width: 400px; /* Adjust card width as needed */
-  margin-right: 20px; /* Adjust spacing between cards */
-  animation: scrollAnimation 5s infinite; /* Adjust duration and timing as needed */
+  height: auto; 
+  width: 400px;
+  margin-right: 20px;
+  animation: scrollAnimation 3s linear infinite; 
 }
 
 @keyframes scrollAnimation {
@@ -21,7 +30,7 @@
     transform: translateX(0);
   }
   100% {
-    transform: translateX(-100%); /* Slide the carousel to the left */
+    transform: translateX(-100%); 
   }
 }
 
@@ -42,7 +51,7 @@
   border: 1px solid #ccc;
   border-radius: 5px;
   padding: 10px;
-  max-width: 100%; /* Adjust max-width to prevent overflow */
+  max-width: 100%; 
   background-color: #f9f9f9;
 }
 

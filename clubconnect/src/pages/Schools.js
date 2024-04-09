@@ -3,6 +3,8 @@ import SearchBar from "../components/SearchBar";
 import { SchoolData } from '../data/SchoolData';
 import { Link } from 'react-router-dom';
 
+
+
 export default function Schools() {
   return (
     <>
@@ -10,16 +12,18 @@ export default function Schools() {
       <NavBar />
       <SearchBar />
       <div className="school-container">
+      <div className="carousel">
         {SchoolData.map((school, index) => (
-          <a key={index} href={school.website} target="_blank" rel="noopener noreferrer" className="school-card">
+           <Link key={index} to={`/schools/${school.slug}`} className="school-card">
             <div>
               <img src={school.image} alt={school.name} />
               <h3>{school.name}</h3>
               <p>{school.location}</p>
               <p>{school.description}</p>
             </div>
-          </a>
+          </Link>
         ))}
+      </div>
       </div>
     </>
   );
