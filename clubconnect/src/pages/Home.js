@@ -7,6 +7,8 @@ import SearchBar from '../components/SearchBar';
 import FilteredEvents from "../data/FilteredEvents"; // Import FilteredEvents component
 import CallBack from "../data/CallBack";
 import EventManager from '../components/EventManager';
+import EventDetail from '../data/EventDetail';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 
 export default function Home() {
@@ -15,8 +17,10 @@ export default function Home() {
       <h1>ClubConnect</h1>
       <NavBar />
       {/* <FilteredEvents /> */}
-     <EventManager/>
-      {/* <EventPageButton /> */}
+      <EventManager/>
+      <Routes>
+      <Route path="/event/:id" component={EventDetail} />
+      {/* <EventPageButton /> */}</Routes>
       <div className="event-container">
         {/* <EventData /> */}
         <CallBack />

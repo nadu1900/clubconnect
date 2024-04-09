@@ -1,6 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';  // Import Link
 import "../styles/FilteredEvents.css";
-
 
 const FilteredEvents = ({ filteredEvents = [], setSchoolFilter, setTimeFilter }) => {
     return (
@@ -11,9 +11,11 @@ const FilteredEvents = ({ filteredEvents = [], setSchoolFilter, setTimeFilter })
                 <option value="techuniv">Tech University</option>
             </select>
             <input type="date" onChange={e => setTimeFilter(e.target.value)} />
-  <div className="event-container">
+
+            <div className="event-container">
                 {filteredEvents.map(event => (
-                    <div key={event.id} className="event-card">
+                    // Wrap the card content with a Link
+                    <Link to={`/event/${event.id}`} key={event.id} className="event-card">
                         <div className="event-info">
                             <h2 className="event-name">{event.name}</h2>
                             <p className="event-desc">{event.description}</p>
@@ -21,13 +23,11 @@ const FilteredEvents = ({ filteredEvents = [], setSchoolFilter, setTimeFilter })
                         {event.imageUrl && (
                             <img src={event.imageUrl} className="event-image" alt={event.name} />
                         )}
-                    </div>
+                    </Link>
                 ))}
             </div>
         </div>
     );
 };
 
-
 export default FilteredEvents;
-
