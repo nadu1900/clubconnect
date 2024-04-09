@@ -11,8 +11,8 @@ export default function Events(){
         <h1>ClubConnect</h1>
         <NavBar />
         <SearchBar />
-        <FilteredEvents />
-        <AllEvents />
+        {/* <FilteredEvents /> */}
+        {/* <AllEvents /> */}
         </>
     )
 }
