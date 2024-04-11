@@ -46,11 +46,11 @@ a {
 /* Event container styles */
 .event-container {
   display: flex;
-  flex-wrap: wrap; /* Allow events to wrap */
-  justify-content: center; /* Center events */
-  margin-top: 20px; /* Add top margin */
+  flex-wrap: nowrap; /* Prevent wrapping to keep events in a horizontal line */
+  overflow-x: hidden; /* Hide overflow to only show the current set of events */
+  width: 100%; /* Full width of the container */
+  scroll-behavior: smooth; /* Optional: for smooth scrolling when changing sets */
 }
-
 
 /* School container styles */
 .school-container {
