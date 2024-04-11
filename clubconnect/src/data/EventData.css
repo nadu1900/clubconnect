@@ -14,7 +14,7 @@
   height: auto; 
   width: 400px;
   margin-right: 20px;
-  animation: scrollAnimation 3s linear infinite; 
+
 }
 .carouselafItem{
   scroll-snap-align: start;
@@ -25,13 +25,12 @@
   animation: scrollAnimation 3s linear infinite; 
 }
 
-@keyframes scrollAnimation {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(-100%); 
-  }
+.event-container {
+  display: flex;
+  flex-wrap: nowrap; /* Prevent wrapping to keep events in a horizontal line */
+  overflow-x: hidden; /* Hide overflow to only show the current set of events */
+  width: 100%; /* Full width of the container */
+  scroll-behavior: smooth; /* Optional: for smooth scrolling when changing sets */
 }
 
 .eventImage {
