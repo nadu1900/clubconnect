@@ -4,11 +4,12 @@ import eventTData from '../data/EventT.json';
 import eventLaf from '../data/LafMockData.json';
 import eventMor from '../data/MoravianMockData.json';
 import { Link } from 'react-router-dom';
+import '../data/EventData.css';
 
 const EventContainer = () => {
   const events = [...eventTData.items, ...eventData.items, ...eventLaf.items, ...eventMor.items];
   const [currentIndex, setCurrentIndex] = useState(0);
-  const eventsPerPage = 5;
+  const eventsPerPage = 4;
 
   const nextEvents = () => {
     const maxIndex = Math.ceil(events.length / eventsPerPage) - 1;

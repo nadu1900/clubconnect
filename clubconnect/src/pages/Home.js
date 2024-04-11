@@ -22,12 +22,11 @@ export default function Home() {
       <h1>ClubConnect</h1>
       <NavBar />
       <SearchBar />
-      <div className="event-container">
-    
+     
+
       {/* <FilteredEvents/> */}
         <EventContainer/>
-       
-      </div>
+      
       <div className="school-container">
         {SchoolData.map((school, index) => (
           <Link key={school.id} to={`/schools/${school.slug}`} className="school-card">
