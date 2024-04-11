@@ -9,6 +9,7 @@ import LehighData from "../data/LehighData";
 import LafayetteData from "../data/LafayatteData";
 import MoravianData from "../data/MoravianData";
 // import FilteredEvents from "../data/FilteredEvents";
+import EventContainer from './EventContainer';
 
 import { Link } from 'react-router-dom';
 
@@ -22,10 +23,10 @@ export default function Home() {
       <NavBar />
       <SearchBar />
       <div className="event-container">
+    
       {/* <FilteredEvents/> */}
-        <LehighData />
-        <LafayetteData />
-        <MoravianData />
+        <EventContainer/>
+       
       </div>
       <div className="school-container">
         {SchoolData.map((school, index) => (
