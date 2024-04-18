@@ -5,6 +5,8 @@ import eventLaf from '../data/LafMockData.json';
 import eventMor from '../data/MoravianMockData.json';
 import { Link } from 'react-router-dom';
 import '../data/EventData.css';
+import '../data/EventContainer.css';
+
 
 const EventContainer = () => {
   const events = [...eventTData.items, ...eventData.items, ...eventLaf.items, ...eventMor.items];

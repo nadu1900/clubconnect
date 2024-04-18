@@ -5,10 +5,6 @@ import '../styles/Home.css';
 import '../styles/SchoolData.css';
 import NavBar from '../components/NavBar';
 import SearchBar from '../components/SearchBar';
-import LehighData from "../data/LehighData";
-import LafayetteData from "../data/LafayatteData";
-import MoravianData from "../data/MoravianData";
-// import FilteredEvents from "../data/FilteredEvents";
 import EventContainer from './EventContainer';
 
 import { Link } from 'react-router-dom';
@@ -22,9 +18,6 @@ export default function Home() {
       <h1>ClubConnect</h1>
       <NavBar />
       <SearchBar />
-     
-
-      {/* <FilteredEvents/> */}
         <EventContainer/>
       
       <div className="school-container">
