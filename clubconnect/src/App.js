@@ -8,6 +8,8 @@ import LehighSchoolPage from './pages/LehighSchoolPage'; // Import the LehighSch
 import LafSchoolPage from './pages/LafSchoolPage'; // Import the LehighSchoolPage component
 import MoravianSchoolPage from './pages/MoravianSchoolPage';
 import MuhlenbergSchoolPage from './pages/MuhlenbergSchoolPage';
+import CombinedEvents from './data/CombinedEvents';
+import EventDetail from './data/EventDetail';
 
 
 
@@ -19,7 +21,7 @@ const App = () => {
           <Route path="/" element={<Home />} />
           <Route path="/home" element={<Home />} />
           <Route path="/schools" element={<Schools />} />
-          
+          <Route path="/event/:id" element={<EventDetail  />} />
           <Route path="/events" element={<Events />} />
           <Route path="/about" element={<About />} />
           <Route path="/schools/lehigh" element={<LehighSchoolPage />} />

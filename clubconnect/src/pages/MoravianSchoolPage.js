@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import EventManager from '../components/EventManager';
 
 
 const MoravianSchoolPage = () => {
@@ -20,6 +21,7 @@ const MoravianSchoolPage = () => {
   
   
         <section className="events-section">
+          <EventManager initialSchool='morv' />
         </section>
         <footer>
           <Link to="/schools" className="back-link">Back to Schools</Link>
