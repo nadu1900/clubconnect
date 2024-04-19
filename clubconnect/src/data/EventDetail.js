@@ -1,26 +1,33 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import { useParams } from 'react-router-dom';
 import eventData from './Event.json';
+import eventTData from './EventT.json';
+import eventLaf from './LafMockData.json';
+import eventMor from './MoravianMockData.json'; 
 
 const EventDetail = () => {
+    const { id } = useParams();
+    // Assuming each JSON file has an 'items' array, we combine all items into a single array.
+    const eventsData = [
+        ...eventData.items, 
+        ...eventTData.items, 
+        ...eventLaf.items, 
+        ...eventMor.items
+    ];
+    const event = eventsData.find(event => event.id.toString() === id);
 
-      const { id } = useParams();
-        const event = eventData.items.find(event => event.id.toString() === id);
-    
-        if (!event) {
-            return <div>Event not found!</div>;
-        }
-   
     if (!event) {
-        return <div>Loading event details...</div>;
+        return <div>Event not found!</div>;
     }
 
     return (
         <div className="event-detail">
-            <h1>{event.title}</h1> {/* Event title */}
+            <h1>{event.name}</h1> {/* Event title */}
             <h2>{event.organizer}</h2> {/* Event organizer */}
             <p>{event.description}</p> {/* Event description */}
-            <p>{new Date(event.date).toLocaleDateString()}</p> {/* Event date */}
+            {event.imageUrl && (
+                <img src={event.imageUrl} className="event-image" alt={event.title} />
+            )}
         </div>
     );
 };

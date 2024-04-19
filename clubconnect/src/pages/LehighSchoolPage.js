@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './LehighSchoolPage.css';
 import LehighData from "../data/LehighData";
-
+import EventManager from "../components/EventManager";
 
 const LehighSchoolPage = () => {
   return (
@@ -23,7 +23,7 @@ const LehighSchoolPage = () => {
 
 
       <section className="events-section">
-        <LehighData />
+<EventManager initialSchool="lehigh"/>
       </section>
       <footer>
         <Link to="/schools" className="back-link">Back to Schools</Link>

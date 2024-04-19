@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import EventManager from '../components/EventManager';
 
 
 const LafSchoolPage = () => {
@@ -19,6 +20,7 @@ const LafSchoolPage = () => {
           <a href="https://lehigh.edu/" className="website-link" target="_blank" rel="noopener noreferrer">Visit Website</a>
         </section>
         <section className="events-section">
+          <EventManager initialSchool='lafayette'/>
         </section>
         <footer>
           <Link to="/schools" className="back-link">Back to Schools</Link>
