@@ -1,5 +1,4 @@
 import React from 'react';
-// import { EventData, EventPageButton } from '../data/EventData'; // Import named exports
 import { SchoolData } from '../data/SchoolData'; // Import named exports and SchoolCards component
 import '../styles/Home.css';
 import '../styles/SchoolData.css';
@@ -19,7 +18,6 @@ export default function Home() {
       <NavBar />
       <SearchBar />
         <EventContainer/>
-      
       <div className="school-container">
         {SchoolData.map((school, index) => (
           <Link key={school.id} to={`/schools/${school.slug}`} className="school-card">
