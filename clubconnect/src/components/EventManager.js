@@ -16,6 +16,8 @@ const EventManager = ({ initialSchool = '' }) => {
     useEffect(() => {
         console.log(`Filtering for school: ${schoolFilter}`);
 
+        setFilteredEvents([]);
+
         let filtered = combinedEvents.filter(event =>
             event.name.toLowerCase().includes(searchTerm.toLowerCase())
         );
@@ -38,7 +40,7 @@ const EventManager = ({ initialSchool = '' }) => {
             filtered = filtered.filter(event => new Date(event.startsOn) >= new Date(timeFilter));
         }
 
-        setFilteredEvents(filtered);
+        setTimeout(() => setFilteredEvents(filtered), 500);
     }, [searchTerm, schoolFilter, timeFilter]);
 
     return (
