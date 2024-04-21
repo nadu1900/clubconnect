@@ -14,13 +14,13 @@
             "eventSubmissionId": 0,
             "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLq4CWq-gjCGJ4S8bo32Za8__YuQciPBu4qg&s",
             "name": "Event 1",
-            "description": "<p>This is the description for Event 1.</p>",
+            "description":  "An engaging community event for all. Join us for a morning of fun activities and interactive sessions. Don't miss out!",
             "startsOn": "2024-04-06T08:00:00+00:00",
             "endsOn": "2024-04-06T10:00:00+00:00",
             "address": {},
             "theme": "Theme 1",
             "benefits": [],
-            "categories": [],
+            "categories": ["Community"],
             "state": {
                 "eventId": 1,
                 "status": "Approved",
@@ -57,7 +57,7 @@
             "eventSubmissionId": 0,
             "imageUrl": "https://campuslife.lafayette.edu/wp-content/uploads/sites/7/2015/06/CampusLiving_Welcome.jpg",
             "name": "Lafayette College Alumni Reunion Weekend",
-            "description": "<p>This is the description for Event 2.</p>",
+            "description": "Calling all Lafayette College alumni! Reconnect with old friends and reminisce about your college days during this special reunion weekend.",
             "startsOn": "2024-04-07T09:00:00+00:00",
             "endsOn": "2024-04-07T11:00:00+00:00",
             "address": {
@@ -66,7 +66,7 @@
             },
             "theme": "Theme 2",
             "benefits": [],
-            "categories": [],
+            "categories": ["Community"],
             "state": {
                 "eventId": 2,
                 "status": "Approved",
@@ -96,7 +96,7 @@
             "eventSubmissionId": 0,
             "imageUrl": "https://about.lafayette.edu/wp-content/uploads/sites/3/2022/11/About-Pics_770x433_enrollment.jpg",
             "name": "Music and Arts Showcase",
-            "description": "<p>This is the description for Event 3.</p>",
+            "description": "Experience a captivating display of talent at our Music and Arts Showcase. From live performances to stunning artworks, it's a celebration of creativity!",
             "startsOn": "2024-04-08T10:00:00+00:00",
             "endsOn": "2024-04-08T12:00:00+00:00",
             "address": {
@@ -105,7 +105,7 @@
             },
             "theme": "Theme 3",
             "benefits": [],
-            "categories": [],
+            "categories": ["Arts"],
             "state": {
                 "eventId": 3,
                 "status": "Approved",
@@ -132,7 +132,7 @@
             "eventSubmissionId": 0,
             "imageUrl": "https://www.mcall.com/wp-content/uploads/migration/2020/07/22/VPTKY6IF2ZG6FBUPLUSIM2IJXQ.jpg?w=1024",
             "name": "Student Government Elections",
-            "description": "<p>This is the description for Event 4.</p>",
+            "description":"Exercise your right to vote! Participate in the Student Government Elections and help shape the future of our campus community.",
             "startsOn": "2024-04-09T11:00:00+00:00",
             "endsOn": "2024-04-09T13:00:00+00:00",
             "address": {
@@ -141,7 +141,7 @@
             },
             "theme": "Theme 4",
             "benefits": [],
-            "categories": [],
+            "categories": ["Community"],
             "state": {
                 "eventId": 4,
                 "status": "Approved",
@@ -168,7 +168,7 @@
             "eventSubmissionId": 0,
             "imageUrl": "https://about.lafayette.edu/wp-content/uploads/sites/3/2022/11/About-Pics-Homepage03-470x264.jpg",
             "name": "Sustainability Summit",
-            "description": "<p>This is the description for Event 5.</p>",
+            "description":"Join us for an insightful discussion on sustainability practices and environmental conservation. Together, let's make a difference!" ,
             "startsOn": "2024-04-10T12:00:00+00:00",
             "endsOn": "2024-04-10T14:00:00+00:00",
             "address": {
@@ -177,7 +177,7 @@
             },
             "theme": "Theme 5",
             "benefits": [],
-            "categories": [],
+            "categories": ["Academic"],
             "state": {
                 "eventId": 5,
                 "status": "Approved",
@@ -204,7 +204,7 @@
             "eventSubmissionId": 0,
             "imageUrl": "https://news.lafayette.edu/wp-content/blogs.dir/2/files/2019/11/OBC-Sara-and-Diane-Gallery-1024x683.jpg",
             "name": "Lafayette College Arts Festival",
-            "description": "<p>This is the description for Event 6.</p>",
+            "description":"Celebrate the arts at Lafayette College! From live performances to art exhibitions, immerse yourself in creativity at our Arts Festival." ,
             "startsOn": "2024-04-11T13:00:00+00:00",
             "endsOn": "2024-04-11T15:00:00+00:00",
             "address": {
@@ -213,7 +213,7 @@
             },
             "theme": "Theme 6",
             "benefits": [],
-            "categories": [],
+            "categories": ["Arts"],
             "state": {
                 "eventId": 6,
                 "status": "Approved",
@@ -240,7 +240,7 @@
             "eventSubmissionId": 0,
             "imageUrl": "https://www.higheredjobs.com/images/instProfile/header-15642.jpg?41ED95BA-EEE1-146A-CBF98AB7FCC38A24",
             "name": "Sports Gala",
-            "description": "<p>This is the description for Event 7.</p>",
+            "description": "Get ready for an exciting Sports Gala! Cheer on your favorite teams and athletes as they compete for glory on the field.",
             "startsOn": "2024-04-12T14:00:00+00:00",
             "endsOn": "2024-04-12T16:00:00+00:00",
             "address": {
@@ -249,7 +249,7 @@
             },
             "theme": "Theme 7",
             "benefits": [],
-            "categories": [],
+            "categories": ["Community"],
             "state": {
                 "eventId": 7,
                 "status": "Approved",
@@ -276,7 +276,7 @@
             "eventSubmissionId": 0,
             "imageUrl": "https://admissions.lafayette.edu/wp-content/uploads/sites/5/2021/05/Campus_Tours20210401115118-470x264.jpg",
             "name": "Diversity and Inclusion Workshop",
-            "description": "<p>This is the description for Event 8.</p>",
+            "description":  "Join us for an important discussion on diversity and inclusion. Together, let's create a more inclusive campus community.",
             "startsOn": "2024-04-13T15:00:00+00:00",
             "endsOn": "2024-04-13T17:00:00+00:00",
             "address": {
@@ -285,7 +285,7 @@
             },
             "theme": "Theme 8",
             "benefits": [],
-            "categories": [],
+            "categories": ["Community"],
             "state": {
                 "eventId": 8,
                 "status": "Approved",
@@ -312,7 +312,7 @@
             "eventSubmissionId": 0,
             "imageUrl": "https://today.lafayette.edu/wp-content/uploads/sites/433/2020/05/XLC-committee.gif",
             "name": "Speaker Series: Leaders from Lafayette College",
-            "description": "<p>This is the description for Event 9.</p>",
+            "description": "Be inspired by leaders from Lafayette College! Join us for insightful talks and discussions on leadership and success." ,
             "startsOn": "2024-04-14T16:00:00+00:00",
             "endsOn": "2024-04-14T18:00:00+00:00",
             "address": {
@@ -321,7 +321,7 @@
             },
             "theme": "Theme 9",
             "benefits": [],
-            "categories": [],
+            "categories": ["Academic"],
             "state": {
                 "eventId": 9,
                 "status": "Approved",

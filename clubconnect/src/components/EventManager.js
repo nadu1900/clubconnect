@@ -41,7 +41,7 @@ const EventManager = ({ initialSchool = '' }) => {
         }
 
         setTimeout(() => setFilteredEvents(filtered), 500);
-    }, [searchTerm, schoolFilter, timeFilter]);
+    }, [seaferchTerm, schoolFilter, timeFilter]);
 
     return (
         <div>

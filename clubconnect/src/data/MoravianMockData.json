@@ -14,13 +14,13 @@
             "eventSubmissionId": 0,
             "imageUrl": "https://embed-ssl.wistia.com/deliveries/05ff632043b7cacbfc0243d9c75223dad17b6f49.webp?image_crop_resized=1280x720",
             "name": "Fall Foliage Festival",
-            "description": "<p>This is the description for Event 1.</p>",
+            "description": "An event celebrating the beauty of fall foliage. Join us for a day filled with outdoor activities amidst the colorful autumn scenery.",
             "startsOn": "2024-04-06T08:00:00+00:00",
             "endsOn": "2024-04-06T10:00:00+00:00",
             "address": {},
             "theme": "Theme 1",
             "benefits": [],
-            "categories": [],
+            "categories": ["Community"],
             "state": {
                 "eventId": 1,
                 "status": "Approved",
@@ -57,7 +57,7 @@
             "eventSubmissionId": 0,
             "imageUrl": "https://embed-ssl.wistia.com/deliveries/4955d0525b2ad5ff39679ca0d7a23d2e.webp?image_crop_resized=1280x720",
             "name": "Community Outreach Day",
-            "description": "<p>This is the description for Event 2.</p>",
+            "description": "A day dedicated to giving back to the community. Join us for various outreach activities aimed at making a positive impact on the local community.",
             "startsOn": "2024-04-07T09:00:00+00:00",
             "endsOn": "2024-04-07T11:00:00+00:00",
             "address": {
@@ -66,7 +66,7 @@
             },
             "theme": "Theme 2",
             "benefits": [],
-            "categories": [],
+            "categories": ["Community"],
             "state": {
                 "eventId": 2,
                 "status": "Approved",
@@ -96,7 +96,7 @@
             "eventSubmissionId": 0,
             "imageUrl": "https://news.moravian.edu/wp-content/uploads/2023/09/class2027.jpg",
             "name": "Arts & Culture Showcase",
-            "description": "<p>This is the description for Event 3.</p>",
+            "description": "Experience a showcase of artistic and cultural talents. From live performances to art exhibitions, immerse yourself in the vibrant world of arts and culture.",
             "startsOn": "2024-04-08T10:00:00+00:00",
             "endsOn": "2024-04-08T12:00:00+00:00",
             "address": {
@@ -105,7 +105,7 @@
             },
             "theme": "Theme 3",
             "benefits": [],
-            "categories": [],
+            "categories": ["Arts"],
             "state": {
                 "eventId": 3,
                 "status": "Approved",
@@ -132,7 +132,7 @@
             "eventSubmissionId": 0,
             "imageUrl": "https://news.moravian.edu/wp-content/uploads/2023/09/fellows.jpg",
             "name": "Career Pathways Expo",
-            "description": "<p>This is the description for Event 4.</p>",
+            "description": "Explore different career pathways and opportunities. Attend workshops and network with professionals to kickstart your career journey.",
             "startsOn": "2024-04-09T11:00:00+00:00",
             "endsOn": "2024-04-09T13:00:00+00:00",
             "address": {
@@ -141,7 +141,7 @@
             },
             "theme": "Theme 4",
             "benefits": [],
-            "categories": [],
+            "categories": ["Academic"],
             "state": {
                 "eventId": 4,
                 "status": "Approved",
@@ -168,7 +168,7 @@
             "eventSubmissionId": 0,
             "imageUrl": "https://www.moravian.edu/sites/default/files/styles/max_width_480px/public/2022-11/balloon-pop-684.jpg?itok=YKODGQ0q",
             "name": "Wellness & Mindfulness Retreat",
-            "description": "<p>This is the description for Event 5.</p>",
+            "description": "Indulge in a wellness retreat focused on mindfulness and self-care. Take a break from your busy schedule and prioritize your well-being.",
             "startsOn": "2024-04-10T12:00:00+00:00",
             "endsOn": "2024-04-10T14:00:00+00:00",
             "address": {
@@ -177,7 +177,7 @@
             },
             "theme": "Theme 5",
             "benefits": [],
-            "categories": [],
+            "categories": ["Community"],
             "state": {
                 "eventId": 5,
                 "status": "Approved",
@@ -204,7 +204,7 @@
             "eventSubmissionId": 0,
             "imageUrl": "https://www.moravian.edu/sites/default/files/styles/program_card/public/2024-01/Post%20mast%20family%20nurse%20pract%20cert%20.jpg?h=61d820be&itok=esUpX7-n",
             "name": "Connecting Generations",
-            "description": "<p>This is the description for Event 6.</p>",
+            "description": "Bridge the generation gap and connect with individuals from different age groups. Join us for interactive sessions and meaningful conversations.",
             "startsOn": "2024-04-11T13:00:00+00:00",
             "endsOn": "2024-04-11T15:00:00+00:00",
             "address": {
@@ -213,7 +213,7 @@
             },
             "theme": "Theme 6",
             "benefits": [],
-            "categories": [],
+            "categories": ["Community"],
             "state": {
                 "eventId": 6,
                 "status": "Approved",
@@ -240,7 +240,7 @@
             "eventSubmissionId": 0,
             "imageUrl": "https://news.moravian.edu/wp-content/uploads/2023/08/houndDay.jpg",
             "name": "Spotlight on Moravian Talent",
-            "description": "<p>This is the description for Event 7.</p>",
+            "description": "Spotlighting the diverse talent within the community. Witness captivating performances and showcase the talent of our local artists and performers.",
             "startsOn": "2024-04-12T14:00:00+00:00",
             "endsOn": "2024-04-12T16:00:00+00:00",
             "address": {
@@ -249,7 +249,7 @@
             },
             "theme": "Theme 7",
             "benefits": [],
-            "categories": [],
+            "categories": ["Arts"],
             "state": {
                 "eventId": 7,
                 "status": "Approved",
@@ -276,7 +276,7 @@
             "eventSubmissionId": 0,
             "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7yacLex3OVYAgrm-5q6f-BXydZqiAQPubdwvsjA-G8A&s",
             "name": "Moravian Spirit Renewal",
-            "description": "<p>This is the description for Event 8.</p>",
+            "description": "Renew your spirit and rejuvenate your mind and body. Join us for a day of relaxation and spiritual reflection.",
             "startsOn": "2024-04-13T15:00:00+00:00",
             "endsOn": "2024-04-13T17:00:00+00:00",
             "address": {
@@ -285,7 +285,7 @@
             },
             "theme": "Theme 8",
             "benefits": [],
-            "categories": [],
+            "categories": ["Community"],
             "state": {
                 "eventId": 8,
                 "status": "Approved",
@@ -312,7 +312,7 @@
             "eventSubmissionId": 0,
             "imageUrl": "https://picsum.photos/200/300?random=9",
             "name": "Diversity & Inclusion Symposium",
-            "description": "<p>This is the description for Event 9.</p>",
+            "description": "Engage in insightful discussions on diversity and inclusion. Explore strategies to create a more inclusive and welcoming environment.",
             "startsOn": "2024-04-14T16:00:00+00:00",
             "endsOn": "2024-04-14T18:00:00+00:00",
             "address": {
@@ -321,7 +321,7 @@
             },
             "theme": "Theme 9",
             "benefits": [],
-            "categories": [],
+            "categories": ["Community"],
             "state": {
                 "eventId": 9,
                 "status": "Approved",
@@ -348,7 +348,7 @@
             "eventSubmissionId": 0,
             "imageUrl": "https://picsum.photos/200/300?random=10",
             "name": "Harmony in the Moravian Community",
-            "description": "<p>This is the description for Event 10.</p>",
+            "description": "Celebrate harmony and unity within the community. Join us for an evening of cultural exchange and mutual understanding.",
             "startsOn": "2024-04-15T17:00:00+00:00",
             "endsOn": "2024-04-15T19:00:00+00:00",
             "address": {
@@ -357,7 +357,7 @@
             },
             "theme": "Theme 10",
             "benefits": [],
-            "categories": [],
+            "categories": ["Community"],
             "state": {
                 "eventId": 10,
                 "status": "Approved",

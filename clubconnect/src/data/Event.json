@@ -14,7 +14,7 @@
         "eventSubmissionId": 0,
         "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/pvrpmci-spa-outdoor-cocoon-individual-1675108929.jpg",
         "name": "VE!!",
-        "description": "<p><p>This is the description for Event 1.</p>",
+        "description": "An immersive spa retreat in nature, offering relaxation and rejuvenation for body and mind.",
         "startsOn": "2009-08-17T11:30:00+00:00",
         "endsOn": "2009-08-20T00:00:00+00:00",
         "address": {
@@ -35,7 +35,7 @@
         },
         "theme": "Unknown",
         "benefits": [],
-        "categories": [],
+        "categories": ["Community"],
         "state": {
           "eventId": 39837,
           "status": "Approved",
@@ -72,13 +72,13 @@
         "eventSubmissionId": 0,
         "imageUrl": "https://resourceboy.com/wp-content/uploads/2023/07/modern-colorful-karaoke-night-flyer-template-thumbnail.jpg",
         "name": "Site Leader Training",
-        "description": "<p>This is the description for Event 1.</p>",
+        "description": "Join us for an evening of karaoke and fun, as we train future site leaders for community projects.",
         "startsOn": "2009-09-03T18:00:00+00:00",
         "endsOn": "2009-09-03T20:00:00+00:00",
         "address": null,
         "theme": "Unknown",
         "benefits": [],
-        "categories": [],
+        "categories": ["Community"],
         "state": {
           "eventId": 39838,
           "status": "Approved",
@@ -116,7 +116,7 @@
         "imagePath": "f419c8a6-d305-4155-a951-1328e74d1d1d7299e024-6c80-4f55-9f9c-1ba84eb5ef0c.pdf",
         "imageUrl": "https://se-images.campuslabs.com/clink/images/f419c8a6-d305-4155-a951-1328e74d1d1d7299e024-6c80-4f55-9f9c-1ba84eb5ef0c.pdf",
         "name": "GEM Kick off Retreat",
-        "description": "",
+        "description": "Embark on a journey of personal and professional growth at the GEM Kick off Retreat.",
         "startsOn": "2009-08-20T17:45:00+00:00",
         "endsOn": "2009-08-21T18:45:00+00:00",
         "address": {
@@ -137,7 +137,7 @@
         },
         "theme": "Unknown",
         "benefits": [],
-        "categories": [],
+        "categories": ["Community"],
         "state": {
           "eventId": 39839,
           "status": "Approved",
@@ -175,7 +175,7 @@
         "imagePath": "88bf4d20-0969-41e4-b105-f717101e04d0a31ae56a-a7af-4b51-9839-0b57c82b54bc.jpg",
         "imageUrl": "https://se-images.campuslabs.com/clink/images/88bf4d20-0969-41e4-b105-f717101e04d0a31ae56a-a7af-4b51-9839-0b57c82b54bc.jpg",
         "name": "CSO Staff Retreat",
-        "description": "<p><p>This is the description for Event 1.</p>",
+        "description": "A retreat for CSO staff members to bond and recharge in a super-secret location!",
         "startsOn": "2009-08-28T19:00:00+00:00",
         "endsOn": "2009-08-29T20:00:00+00:00",
         "address": {
@@ -196,7 +196,7 @@
         },
         "theme": "Unknown",
         "benefits": [],
-        "categories": [],
+        "categories": ["Community"],
         "state": {
           "eventId": 39840,
           "status": "Approved",
@@ -235,7 +235,7 @@
         "imagePath": "f419c8a6-d305-4155-a951-1328e74d1d1d7299e024-6c80-4f55-9f9c-1ba84eb5ef0c.pdf",
         "imageUrl": "https://pbs.twimg.com/media/GEjyWUgXcAAHQMZ.jpg",
         "name": "Leadership Lehigh Applications",
-        "description": "<p><p>This is the description for Event 1.</p></p>",
+        "description": "Applications for Leadership Lehigh are open! Join us and be part of a transformative leadership experience.",
         "startsOn": "2009-08-20T11:00:00+00:00",
         "endsOn": "2009-09-02T20:00:00+00:00",
         "address": {
@@ -256,7 +256,7 @@
         },
         "theme": "Unknown",
         "benefits": [],
-        "categories": [],
+        "categories": ["Academic"],
         "state": {
           "eventId": 39841,
           "status": "Canceled",
@@ -295,7 +295,7 @@
         "imagePath": "52cc44d9-3877-4cd5-9beb-763efe793ed02d2010be-b478-4509-bfcd-243f50d197c2.JPG",
         "imageUrl": "https://cdn1.sportngin.com/attachments/call_to_action/d590-199052539/Registration_Announcement_Phantoms_large.png",
         "name": "Leadership Lehigh Application",
-        "description": "<p><p>This is the description for Event 1.</p>",
+        "description": "Submit your application for Leadership Lehigh at the OSLD, Ulrich Room 415D",
         "startsOn": "2009-08-13T18:00:00+00:00",
         "endsOn": "2009-09-02T20:00:00+00:00",
         "address": {
@@ -316,7 +316,7 @@
         },
         "theme": "Unknown",
         "benefits": [],
-        "categories": [],
+        "categories": ["Academic"],
         "state": {
           "eventId": 39842,
           "status": "Approved",
@@ -355,7 +355,7 @@
         "imagePath": "3eabfcab-3324-4048-b48b-04e959af14df6333028b-d366-4f5f-8636-5ada1437c1c1.png",
         "imageUrl": "https://se-images.campuslabs.com/clink/images/3eabfcab-3324-4048-b48b-04e959af14df6333028b-d366-4f5f-8636-5ada1437c1c1.png",
         "name": "Community Service Office",
-        "description": "<p><p>This is the description for Event 1.</p>",
+        "description": "Engage in community service at the Ulrich Student Center and make a difference!",
         "startsOn": "2009-08-13T18:15:00+00:00",
         "endsOn": "2010-06-30T19:15:00+00:00",
         "address": {
@@ -376,7 +376,7 @@
         },
         "theme": "Unknown",
         "benefits": [],
-        "categories": [],
+        "categories": ["Community"],
         "state": {
           "eventId": 39843,
           "status": "Canceled",
@@ -414,7 +414,7 @@
         "imagePath": "079691b4-0e07-4a39-b4a0-9088b486cf27389d617f-be31-4959-9059-fc23b422d800.JPG",
         "imageUrl": "https://se-images.campuslabs.com/clink/images/079691b4-0e07-4a39-b4a0-9088b486cf27389d617f-be31-4959-9059-fc23b422d800.JPG",
         "name": "America Reads/America Counts Tutoring Application!",
-        "description": "<p><p>This is the description for Event 1.</p>",
+        "description": "Join the America Reads/America Counts tutoring program at the Community Service Office in Ulrich Student Center.",
         "startsOn": "2009-08-13T18:15:00+00:00",
         "endsOn": "2009-09-28T20:00:00+00:00",
         "address": {
@@ -435,7 +435,7 @@
         },
         "theme": "Unknown",
         "benefits": [],
-        "categories": [],
+        "categories": ["Community"],
         "state": {
           "eventId": 39844,
           "status": "Approved",
@@ -474,7 +474,7 @@
         "imagePath": "ca1dc3ba-6988-4149-910d-fadc9e2e415793281d19-7331-4fe0-a852-3d8357910286.png",
         "imageUrl": "https://se-images.campuslabs.com/clink/images/ca1dc3ba-6988-4149-910d-fadc9e2e415793281d19-7331-4fe0-a852-3d8357910286.png",
         "name": "UP Thursday Night Comedy featuring Steve Hofstetter",
-        "description": "<p><p>This is the description for Event 1.</p>",
+        "description": "Laugh your heart out with Steve Hofstetter at Packard 101 for UP Thursday Night Comedy!",
         "startsOn": "2010-09-02T23:00:00+00:00",
         "endsOn": "2010-09-03T01:00:00+00:00",
         "address": {
@@ -495,7 +495,7 @@
         },
         "theme": "Unknown",
         "benefits": [],
-        "categories": [],
+        "categories": ["Arts"],
         "state": {
           "eventId": 39845,
           "status": "Approved",
@@ -534,7 +534,7 @@
         "imagePath": "e6b8ce65-b02a-4221-9168-4a96fcfe9c8e6e8daeb4-598d-4e02-b015-2b5903eea3b4.pdf",
         "imageUrl": "https://images.squarespace-cdn.com/content/v1/5f0907cd357a1604c2562553/b208e816-c1b9-4832-b39f-fbb69215e83a/Screen+Shot+2023-08-04+at+6.09.13+PM.jpg",
         "name": "Sorority Recruitment - 1st Rho Gamma Hall Meetings",
-        "description": "<p><p>This is the description for Event 1.</p>",
+        "description": "",
         "startsOn": "2009-08-30T23:00:00+00:00",
         "endsOn": "2009-08-31T00:00:00+00:00",
         "address": {
