@@ -7,18 +7,10 @@ const SearchBar = ({ setSearchTerm, events }) => {
     const [searchTermLocal, setSearchTermLocal] = useState('');
     const [suggestions, setSuggestions] = useState([]);
     const [showSuggestions, setShowSuggestions] = useState(false);
-
-
-
-
     const handleSearchChange = (e) => {
         const value = e.target.value;
         setSearchTermLocal(value);
         setSearchTerm(value);
-
-
-
-
         if (value.length > 0) {
             const searchSuggestions = events
                 .filter(event => event.name.toLowerCase().includes(value.toLowerCase()))
@@ -47,7 +39,7 @@ const SearchBar = ({ setSearchTerm, events }) => {
         <div className="search-bar">
             <input
                 type="text"
-                placeholder="Search events by name..."
+                placeholder="Search Events, Organizations and Schools"
                 value={searchTermLocal}
                 onChange={handleSearchChange}
              
@@ -56,8 +48,5 @@ const SearchBar = ({ setSearchTerm, events }) => {
         </div>
     );
 };
-
-
-
 
 export default SearchBar;

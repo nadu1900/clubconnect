@@ -3,17 +3,17 @@ import SearchBar from "../components/SearchBar";
 import { SchoolData } from '../data/SchoolData';
 import { Link } from 'react-router-dom';
 import banner from '../data/schoolimages/banner.jpeg';
+import '../pages/Schools.css';
+
 
 
 
 export default function Schools() {
   return (
-    <>    
+    <>      
       <h1>ClubConnect</h1>
-      <NavBar />
-      <SearchBar />
+        <NavBar />
       <div className="school-container">
-      <div className="carousel">
       <img src={banner} alt="Banner" className="banner" />
         {SchoolData.map((school, index) => (
            <Link key={index} to={`/schools/${school.slug}`} className="school-card">
@@ -25,7 +25,6 @@ export default function Schools() {
             </div>
           </Link>
         ))}
-      </div>
       </div>
     </>
   );

@@ -21,16 +21,13 @@ export default function Home() {
     const interval = setInterval(() => {
       setCurrentBannerIndex((prevIndex) => (prevIndex + 1) % banners.length);
     }, 5000); // Change the duration to switch banners (in milliseconds)
-
     return () => clearInterval(interval);
   }, []);
   return (
     <>
       <h1>ClubConnect</h1>
       <NavBar />
-      <div className="homepage-text">
-        <p>Welcome, User</p>
-      </div>
+      <p className="home-paragraph">Discover unique opportunities in the Lehigh Valley</p>
       <div className="banner-container">
         {banners.map((banner, index) => (
           <img
