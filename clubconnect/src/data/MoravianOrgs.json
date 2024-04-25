@@ -1,0 +1,125 @@
+{
+    "totalItems": 10,
+    "items": [
+        {
+            "organizationId": 5678,
+            "name": "Moravian Outdoor Club",
+            "description": "Specializes in outdoor activities that celebrate natural beauty and seasonal changes, such as the 'Fall Foliage Festival', which offers a day filled with activities set against a backdrop of vibrant autumn colors.",
+            "imageUrl": "https://embed-ssl.wistia.com/deliveries/05ff632043b7cacbfc0243d9c75223dad17b6f49.webp?image_crop_resized=1280x720",
+            "organizationType": "Environmental and Recreational",
+            "contactInfo": {
+                "email": "outdoor@morv.edu",
+                "phone": "+123456790"
+            },
+            "categories": ["Community"]
+        },
+        {
+            "organizationId": 5679,
+            "name": "Community Outreach Office",
+            "description": "Dedicated to enhancing local engagement and support, this office organizes 'Community Outreach Day' to encourage participation in various community service activities.",
+            "imageUrl": "https://embed-ssl.wistia.com/deliveries/4955d0525b2ad5ff39679ca0d7a23d2e.webp?image_crop_resized=1280x720",
+            "organizationType": "Community Service",
+            "contactInfo": {
+                "email": "outreach@morv.edu",
+                "phone": "+123456791"
+            },
+            "categories": ["Community"]
+        },
+        {
+            "organizationId": 5680,
+            "name": "Arts and Culture Initiative",
+            "description": "Promotes cultural appreciation through events like the 'Arts & Culture Showcase', highlighting local and student talent in various artistic disciplines.",
+            "imageUrl": "https://news.moravian.edu/wp-content/uploads/2023/09/class2027.jpg",
+            "organizationType": "Arts and Culture",
+            "contactInfo": {
+                "email": "arts@morv.edu",
+                "phone": "+123456792"
+            },
+            "categories": ["Arts"]
+        },
+        {
+            "organizationId": 5681,
+            "name": "Career Services Center",
+            "description": "Provides resources and events for career development, such as the 'Career Pathways Expo', where students can explore diverse career options and network with professionals.",
+            "imageUrl": "https://news.moravian.edu/wp-content/uploads/2023/09/fellows.jpg",
+            "organizationType": "Career Development",
+            "contactInfo": {
+                "email": "careers@morv.edu",
+                "phone": "+123456793"
+            },
+            "categories": ["Academic"]
+        },
+        {
+            "organizationId": 5682,
+            "name": "Wellness and Health Promotion",
+            "description": "Focuses on personal health and mindfulness through events like the 'Wellness & Mindfulness Retreat', offering activities centered on self-care and relaxation.",
+            "imageUrl": "https://www.moravian.edu/sites/default/files/styles/max_width_480px/public/2022-11/balloon-pop-684.jpg?itok=YKODGQ0q",
+            "organizationType": "Health and Wellness",
+            "contactInfo": {
+                "email": "wellness@morv.edu",
+                "phone": "+123456794"
+            },
+            "categories": ["Community"]
+        },
+        {
+            "organizationId": 5683,
+            "name": "Generational Bridge Club",
+            "description": "Encourages interaction across different age groups with the 'Connecting Generations' event, fostering understanding and dialogue between varied demographic groups.",
+            "imageUrl": "https://www.moravian.edu/sites/default/files/styles/program_card/public/2024-01/Post%20mast%20family%20nurse%20pract%20cert%20.jpg?h=61d820be&itok=esUpX7-n",
+            "organizationType": "Community Engagement",
+            "contactInfo": {
+                "email": "generations@morv.edu",
+                "phone": "+123456795"
+            },
+            "categories": ["Community"]
+        },
+        {
+            "organizationId": 5684,
+            "name": "Talent and Performance Guild",
+            "description": "Showcases the artistic abilities of the community in the 'Spotlight on Moravian Talent' event, featuring live performances and exhibitions.",
+            "imageUrl": "https://news.moravian.edu/wp-content/uploads/2023/08/houndDay.jpg",
+            "organizationType": "Performing Arts",
+            "contactInfo": {
+                "email": "talent@morv.edu",
+                "phone": "+123456796"
+            },
+            "categories": ["Arts"]
+        },
+        {
+            "organizationId": 5685,
+            "name": "Spiritual Life Office",
+            "description": "Facilitates spiritual growth and reflection through the 'Moravian Spirit Renewal' event, offering activities aimed at spiritual wellness and community building.",
+            "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7yacLex3OVYAgrm-5q6f-BXydZqiAQPubdwvsjA-G8A&s",
+            "organizationType": "Spiritual and Religious Services",
+            "contactInfo": {
+                "email": "spiritual@morv.edu",
+                "phone": "+123456797"
+            },
+            "categories": ["Community"]
+        },
+        {
+            "organizationId": 5686,
+            "name": "Inclusion and Diversity Office",
+            "description": "Hosts impactful events like the 'Diversity & Inclusion Symposium' to discuss and implement strategies for a more inclusive campus environment.",
+            "imageUrl": "https://picsum.photos/200/300?random=9",
+            "organizationType": "Diversity and Inclusion",
+            "contactInfo": {
+                "email": "diversity@morv.edu",
+                "phone": "+123456798"
+            },
+            "categories": ["Community"]
+        },
+        {
+            "organizationId": 5687,
+            "name": "Community Harmony Initiative",
+            "description": "Promotes unity and cultural exchange through the 'Harmony in the Moravian Community' event, aiming to celebrate and understand the diverse cultural backgrounds within the community.",
+            "imageUrl": "https://picsum.photos/200/300?random=10",
+            "organizationType": "Community Relations",
+            "contactInfo": {
+                "email": "harmony@morv.edu",
+                "phone": "+123456799"
+            },
+            "categories": ["Community"]
+        }
+    ]
+}

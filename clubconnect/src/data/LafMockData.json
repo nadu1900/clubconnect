@@ -11,7 +11,7 @@
             "organizationIds": [
                 5678
             ],
-            "eventSubmissionId": 0,
+           "eventSubmissionId": 0,
             "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLq4CWq-gjCGJ4S8bo32Za8__YuQciPBu4qg&s",
             "name": "Event 1",
             "description":  "An engaging community event for all. Join us for a morning of fun activities and interactive sessions. Don't miss out!",

@@ -1,0 +1,102 @@
+{
+    "totalItems": 8,
+    "items": [
+        {
+            "organizationId": 26273,
+            "name": "Spa and Wellness Club",
+            "description": "Dedicated to promoting wellness and relaxation, the Spa and Wellness Club organizes retreats like 'VE!!'—an immersive spa retreat in nature designed to rejuvenate body and mind.",
+            "imageUrl": "https://images.squarespace-cdn.com/content/v1/638a6077684c250c77765cd6/df7f8f54-454b-4b3d-ba61-d2f1fc12673d/Untitled+design+%284%29.png",
+            "organizationType": "Health and Wellness",
+            "contactInfo": {
+                "email": "wellness@lehigh.edu",
+                "phone": "+1234567890"
+            },
+        "categories": ["Community"]
+        },
+        {
+            "organizationId": 26278,
+            "name": "Leadership Development Association",
+            "description": "Focusing on developing future leaders through interactive activities, this association holds events such as the 'Site Leader Training' which combines karaoke and fun with serious leadership training.",
+            "imageUrl": "https://resourceboy.com/wp-content/uploads/2023/07/modern-colorful-karaoke-night-flyer-template-thumbnail.jpg",
+            "organizationType": "Leadership Training",
+            "contactInfo": {
+                "email": "leadership@lehigh.edu",
+                "phone": "+1234567891"
+            }, 
+            "categories": ["Community"]
+        },
+        {
+            "organizationId": 26271,
+            "name": "GEM Retreat Center",
+            "description": "Organizes retreats aimed at personal and professional growth, such as the 'GEM Kick off Retreat' held at Stony Acres Retreat Center, offering participants leadership skills and personal development.",
+            "imageUrl": "https://se-images.campuslabs.com/clink/images/f419c8a6-d305-4155-a951-1328e74d1d1d7299e024-6c80-4f55-9f9c-1ba84eb5ef0c.pdf",
+            "organizationType": "Retreat and Development",
+            "contactInfo": {
+                "email": "gemretreat@lehigh.edu",
+                "phone": "+1234567892"
+            }, 
+             "categories": ["Community"]
+        },
+        {
+            "organizationId": 26279,
+            "name": "CSO Staff Retreat Group",
+            "description": "Specializes in creating bonding and recharging experiences for community service staff, organizing retreats like the 'CSO Staff Retreat' in secret locations to enhance team spirit and cohesion.",
+            "imageUrl": "https://se-images.campuslabs.com/clink/images/88bf4d20-0969-41e4-b105-f717101e04d0a31ae56a-a7af-4b51-9839-0b57c82b54bc.jpg",
+            "organizationType": "Staff Development",
+            "contactInfo": {
+                "email": "csostaff@lehigh.edu",
+                "phone": "+1234567893"
+            }, 
+            "categories": ["Community"]
+        },
+        {
+            "organizationId": 26246,
+            "name": "Lehigh Leadership Program",
+            "description": "Opens applications for transformative leadership experiences and provides training and resources as seen in the 'Leadership Lehigh Applications' event.",
+            "imageUrl": "https://pbs.twimg.com/media/GEjyWUgXcAAHQMZ.jpg",
+            "organizationType": "Academic Leadership",
+            "contactInfo": {
+                "email": "leadership@lehigh.edu",
+                "phone": "+1234567894"
+            }, 
+             "categories": ["Academic"]
+        },
+        {
+            "organizationId": 26286,
+            "name": "Lehigh Office of Student Leadership",
+            "description": "Hosts application processes for leadership programs, providing students with opportunities to apply for roles in initiatives such as the 'Leadership Lehigh Application'.",
+            "imageUrl": "https://cdn1.sportngin.com/attachments/call_to_action/d590-199052539/Registration_Announcement_Phantoms_large.png",
+            "organizationType": "Student Affairs",
+            "contactInfo": {
+                "email": "student.leadership@lehigh.edu",
+                "phone": "+1234567895"
+            }, 
+             "categories": ["Academic"] 
+        },
+        {
+            "organizationId": 26268,
+            "name": "UP Comedy Club",
+            "description": "Brings entertainment to campus with events like 'UP Thursday Night Comedy featuring Steve Hofstetter', offering a night of laughter and relaxation for students and staff.",
+            "imageUrl": "https://se-images.campuslabs.com/clink/images/ca1dc3ba-6988-4149-910d-fadc9e2e415793281d19-7331-4fe0-a852-3d8357910286.png",
+            "organizationType": "Entertainment",
+            "contactInfo": {
+                "email": "comedy@lehigh.edu",
+                "phone": "+1234567896"
+            }, 
+            "categories": ["Arts"]
+        }, 
+        {
+            "organizationId": 26545,
+            "name": "Lehigh Sorority Recruitment Board",
+            "description": "Coordinates recruitment events across campus, such as the 'Sorority Recruitment - 1st Rho Gamma Hall Meetings', aimed at introducing new students to sorority life.",
+            "imageUrl": "https://images.squarespace-cdn.com/content/v1/5f0907cd357a1604c2562553/b208e816-c1b9-4832-b39f-fbb69215e83a/Screen+Shot+2023-08-04+at+6.09.13+PM.jpg",
+            "organizationType": "Sorority Affairs",
+            "contactInfo": {
+                "email": "sorority@lehigh.edu",
+                "phone": "+1234567897"
+            }, 
+             "categories": []
+
+        }
+    ]
+}

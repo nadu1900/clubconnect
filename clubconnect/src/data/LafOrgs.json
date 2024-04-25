@@ -1,0 +1,113 @@
+{
+    "totalItems": 9,
+    "items": [
+        {
+            "organizationId": 5678,
+            "name": "Community Event Planners",
+            "description": "An organization dedicated to enriching the local community through engaging and fun activities. Known for organizing 'Event 1', which offers a morning full of fun activities and interactive sessions.",
+            "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLq4CWq-gjCGJ4S8bo32Za8__YuQciPBu4qg&s",
+            "organizationType": "Community Services",
+            "contactInfo": {
+                "email": "events@communityplanners.edu",
+                "phone": "+12345678901"
+            },
+            "categories": ["Community"]
+        },
+        {
+            "organizationId": 5679,
+            "name": "Alumni Relations Office",
+            "description": "Facilitates connections among alumni and organizes reunions to foster long-lasting relationships. They are organizing the 'Lafayette College Alumni Reunion Weekend' to welcome alumni back to campus.",
+            "imageUrl": "https://campuslife.lafayette.edu/wp-content/uploads/sites/7/2015/06/CampusLiving_Welcome.jpg",
+            "organizationType": "Alumni Services",
+            "contactInfo": {
+                "email": "alumni@lafayette.edu",
+                "phone": "+12345678902"
+            },
+            "categories": ["Community"]
+        },
+        {
+            "organizationId": 5680,
+            "name": "Arts and Music Society",
+            "description": "Showcases artistic talents through events and exhibitions. They are presenting the 'Music and Arts Showcase' to display a wide range of student talents in music and arts.",
+            "imageUrl": "https://about.lafayette.edu/wp-content/uploads/sites/3/2022/11/About-Pics_770x433_enrollment.jpg",
+            "organizationType": "Cultural Affairs",
+            "contactInfo": {
+                "email": "arts@lafayette.edu",
+                "phone": "+12345678903"
+            },
+            "categories": ["Arts"]
+        },
+        {
+            "organizationId": 5681,
+            "name": "Student Government Association",
+            "description": "Empowers students through representation and leadership. They conduct the 'Student Government Elections' to elect new leaders and representatives.",
+            "imageUrl": "https://www.mcall.com/wp-content/uploads/migration/2020/07/22/VPTKY6IF2ZG6FBUPLUSIM2IJXQ.jpg?w=1024",
+            "organizationType": "Student Governance",
+            "contactInfo": {
+                "email": "sga@lafayette.edu",
+                "phone": "+12345678904"
+            },
+            "categories": ["Community"]
+        },
+        {
+            "organizationId": 5682,
+            "name": "Environmental Council",
+            "description": "Promotes sustainability and environmental awareness. They are hosting the 'Sustainability Summit' to discuss and explore sustainable practices.",
+            "imageUrl": "https://about.lafayette.edu/wp-content/uploads/sites/3/2022/11/About-Pics-Homepage03-470x264.jpg",
+            "organizationType": "Environmental Initiatives",
+            "contactInfo": {
+                "email": "environment@lafayette.edu",
+                "phone": "+12345678905"
+            },
+            "categories": ["Academic"]
+        },
+        {
+            "organizationId": 5683,
+            "name": "Festival Organizers",
+            "description": "Creates vibrant festivals to celebrate arts and creativity. The 'Lafayette College Arts Festival' is a major event bringing together artists and the community.",
+            "imageUrl": "https://news.lafayette.edu/wp-content/blogs.dir/2/files/2019/11/OBC-Sara-and-Diane-Gallery-1024x683.jpg",
+            "organizationType": "Event Planning",
+            "contactInfo": {
+                "email": "festival@lafayette.edu",
+                "phone": "+12345678906"
+            },
+            "categories": ["Arts"]
+        },
+        {
+            "organizationId": 5684,
+            "name": "Sports and Recreation Department",
+            "description": "Organizes sports events and activities. They are planning the 'Sports Gala', a day to enjoy athletic competitions and celebrate team spirit.",
+            "imageUrl": "https://www.higheredjobs.com/images/instProfile/header-15642.jpg?41ED95BA-EEE1-146A-CBF98AB7FCC38A24",
+            "organizationType": "Athletics",
+            "contactInfo": {
+                "email": "sports@lafayette.edu",
+                "phone": "+12345678907"
+            },
+            "categories": ["Community"]
+        },
+        {
+            "organizationId": 5685,
+            "name": "Diversity Initiatives Office",
+            "description": "Focuses on enhancing diversity and inclusion through workshops and discussions. The 'Diversity and Inclusion Workshop' aims to foster an inclusive campus culture.",
+            "imageUrl": "https://admissions.lafayette.edu/wp-content/uploads/sites/5/2021/05/Campus_Tours20210401115118-470x264.jpg",
+            "organizationType": "Diversity Programs",
+            "contactInfo": {
+                "email": "diversity@lafayette.edu",
+                "phone": "+12345678908"
+            },
+            "categories": ["Community"]
+        },
+        {
+            "organizationId": 5686,
+            "name": "Leadership Lecture Series",
+            "description": "Hosts inspirational talks and leadership seminars. The 'Speaker Series: Leaders from Lafayette College' offers insights from distinguished alumni and leaders.",
+            "imageUrl": "https://today.lafayette.edu/wp-content/uploads/sites/433/2020/05/XLC-committee.gif",
+            "organizationType": "Educational",
+            "contactInfo": {
+                "email": "lectures@lafayette.edu",
+                "phone": "+12345678909"
+            },
+            "categories": ["Academic"]
+        }
+    ]
+}

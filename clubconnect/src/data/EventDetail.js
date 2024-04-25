@@ -4,7 +4,7 @@ import eventData from './Event.json';
 import eventTData from './EventT.json';
 import eventLaf from './LafMockData.json';
 import eventMor from './MoravianMockData.json'; 
-
+import './EventDetail.css';
 const EventDetail = () => {
     const { id } = useParams();
     // Assuming each JSON file has an 'items' array, we combine all items into a single array.
