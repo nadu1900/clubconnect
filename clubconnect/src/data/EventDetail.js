@@ -5,6 +5,7 @@ import eventTData from './EventT.json';
 import eventLaf from './LafMockData.json';
 import eventMor from './MoravianMockData.json'; 
 import './EventDetail.css';
+import NavBar from '../components/NavBar';
 const EventDetail = () => {
     const { id } = useParams();
     // Assuming each JSON file has an 'items' array, we combine all items into a single array.
@@ -21,7 +22,9 @@ const EventDetail = () => {
     }
 
     return (
-        <div className="event-detail">
+      
+        <div className="event-detail"> 
+         <NavBar/>
             <h1>{event.name}</h1> {/* Event title */}
             <h2>{event.organizer}</h2> {/* Event organizer */}
             <p>{event.description}</p> {/* Event description */}

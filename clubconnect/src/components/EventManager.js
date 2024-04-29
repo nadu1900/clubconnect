@@ -5,6 +5,7 @@ import eventData from '../data/Event.json';
 import eventTData from '../data/EventT.json';
 import eventLaf from '../data/LafMockData.json';
 import eventMor from '../data/MoravianMockData.json';
+import SearchEvents from './SearchEvents';
 
 const EventManager = ({ initialSchool = '' }) => {
     const [searchTerm, setSearchTerm] = useState('');
@@ -51,7 +52,7 @@ const EventManager = ({ initialSchool = '' }) => {
 
     return (
         <div>
-            <SearchBar
+            <SearchEvents
                 setSearchTerm={setSearchTerm}
                 events={combinedEvents}
             />

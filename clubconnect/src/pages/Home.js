@@ -13,6 +13,7 @@ import banner5 from '../data/schoolimages/banner5.jpeg';
 import banner6 from '../data/schoolimages/banner6.jpeg';
 import banner7 from '../data/schoolimages/banner7.jpeg';
 import { Link } from 'react-router-dom';
+import OrganizationContainer from './OrgsContainer';
 
 const banners = [banner, banner2, banner3, banner4, banner5, banner6, banner7];
 export default function Home() {
@@ -41,6 +42,7 @@ export default function Home() {
       
       <SearchBar />
       <EventContainer />
+      <OrganizationContainer />
       <div className="school-container">
         {SchoolData.map((school, index) => (
           <Link key={school.id} to={`/schools/${school.slug}`} className="school-card">
