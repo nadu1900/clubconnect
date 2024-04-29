@@ -21,9 +21,7 @@ const SearchBar = ({ setSearchTerm, events }) => {
         }
     };
 
-
  const handleBlur = () => {
-        // Hide suggestions after a short delay to allow click event to process
         setTimeout(() => setShowSuggestions(false), 10);
     };
 
@@ -48,5 +46,4 @@ const SearchBar = ({ setSearchTerm, events }) => {
         </div>
     );
 };
-
 export default SearchBar;

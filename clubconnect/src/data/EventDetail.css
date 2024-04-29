@@ -1,0 +1,30 @@
+.event-detail {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .event-detail h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    
+  }
+  
+  .event-detail h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+
+  }
+  
+  .event-detail p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  .event-detail img {
+    max-width: 100%; 
+    height: auto;
+    display: block;
+    margin-top: 20px;
+  }
+  

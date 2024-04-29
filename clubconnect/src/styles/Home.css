@@ -83,14 +83,14 @@ a {
 
 
 .home-paragraph {
-  font-size: 20px; /* Increase the font size for emphasis */
-  font-family: 'Garamond', serif; /* Use a more elegant font */
-  font-weight: bold; /* Make the text bold */
-  color: #1f3c8d; /* Change the color to an eye-catching shade */
+  font-size: 20px; 
+  font-family: 'Garamond', serif;
+  font-weight: bold; 
+  color: #1f3c8d; 
   text-align: right; 
   margin: 0; 
   margin-bottom: 10px;
-  padding-top: 0px; /* Increase padding for better spacing */
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle text shadow for depth */
-  letter-spacing: 1px; /* Increase letter spacing for better readability */
+  padding-top: 0px; 
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); 
+  letter-spacing: 1px; 
 }
