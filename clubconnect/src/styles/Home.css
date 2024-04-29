@@ -79,18 +79,38 @@ a {
 
 .banner.active {
   opacity: 1;
+}.home-paragraph {
+  font-size: 24px; 
+  font-family: 'Cinzel Decorative', serif; 
+  font-weight: bold;
+  color: #374a7d;
+  text-align: center; 
+  margin: 0;
+  margin-bottom: 10px; 
+  padding-top: 5px; 
+  text-shadow: 2px 2px 4px rgba(138, 170, 226, 0.1);
+  letter-spacing: 1px;
+  line-height: 1.5; 
+  padding-bottom: 10px;
+  max-width: 600px; 
+  margin: 0 auto;
+  transition: color 1.5s ease, opacity 3s ease; 
+  opacity: 0; 
+  animation: fadeIn 5s infinite forwards; 
+  top: 20px;
+  position: static;
+  right: 20px; 
 }
 
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
 
-.home-paragraph {
-  font-size: 20px; 
-  font-family: 'Garamond', serif;
-  font-weight: bold; 
-  color: #1f3c8d; 
-  text-align: right; 
-  margin: 0; 
-  margin-bottom: 10px;
-  padding-top: 0px; 
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); 
-  letter-spacing: 1px; 
+.home-paragraph:hover {
+  color: #2777c1; 
 }

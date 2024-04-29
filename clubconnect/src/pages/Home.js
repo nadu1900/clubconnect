@@ -42,7 +42,7 @@ export default function Home() {
       
       <SearchBar />
       <EventContainer />
-      <OrganizationContainer />
+      {/* <OrganizationContainer /> */}
       <div className="school-container">
         {SchoolData.map((school, index) => (
           <Link key={school.id} to={`/schools/${school.slug}`} className="school-card">
