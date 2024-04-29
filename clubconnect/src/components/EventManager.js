@@ -5,11 +5,13 @@ import eventData from '../data/Event.json';
 import eventTData from '../data/EventT.json';
 import eventLaf from '../data/LafMockData.json';
 import eventMor from '../data/MoravianMockData.json';
+import SearchEvents from './SearchEvents';
 
 const EventManager = ({ initialSchool = '' }) => {
     const [searchTerm, setSearchTerm] = useState('');
     const [schoolFilter, setSchoolFilter] = useState(initialSchool);
     const [timeFilter, setTimeFilter] = useState('');
+    const [categoryFilter, setCategoryFilter] = useState(''); // 
     const combinedEvents = [...eventTData.items, ...eventData.items, ...eventLaf.items, ...eventMor.items];
     const [filteredEvents, setFilteredEvents] = useState([]);
 
@@ -36,16 +38,21 @@ const EventManager = ({ initialSchool = '' }) => {
             );
         }
 
+         if (categoryFilter) { // Apply category filter if set
+                    filtered = filtered.filter(event => event.categories && event.categories.includes(categoryFilter));
+                }
+
         if (timeFilter) {
             filtered = filtered.filter(event => new Date(event.startsOn) >= new Date(timeFilter));
         }
 
-        setTimeout(() => setFilteredEvents(filtered), 500);
-    }, [setSearchTerm, schoolFilter, timeFilter]);
+        // Set filtered events
+        setFilteredEvents(filtered);
+    }, [searchTerm, schoolFilter, timeFilter, categoryFilter]); // Include categoryFilter in dependency array
 
     return (
         <div>
-            <SearchBar
+            <SearchEvents
                 setSearchTerm={setSearchTerm}
                 events={combinedEvents}
             />
@@ -53,6 +60,8 @@ const EventManager = ({ initialSchool = '' }) => {
                 filteredEvents={filteredEvents}
                 setSchoolFilter={setSchoolFilter}
                 setTimeFilter={setTimeFilter}
+                categoryFilter={categoryFilter} // Pass categoryFilter down to FilteredEvents
+                setCategoryFilter={setCategoryFilter} // Pass setCategoryFilter down to FilteredEvents
                 allowSchoolFilterChange={!initialSchool}
             />
         </div>
