@@ -11,8 +11,6 @@ import '../pages/Schools.css';
 export default function Schools() {
   return (
     <>      
-      <h1>ClubConnect</h1>
-        <NavBar />
       <div className="school-container">
       <img src={banner} alt="Banner" className="banner" />
         {SchoolData.map((school, index) => (
