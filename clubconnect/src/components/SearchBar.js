@@ -57,7 +57,7 @@ const SearchBar = () => {
         <div className="search-bar">
             <input
                 type="text"
-                placeholder="Search for Organizations or Events..."
+                placeholder="Search for Events or Organizations..."
                 onChange={handleSearchChange}
                 value={searchTerm}
                 onBlur={() => setTimeout(() => setShowSuggestions(false), 100)}

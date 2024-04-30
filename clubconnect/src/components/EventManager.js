@@ -7,6 +7,7 @@ import eventLaf from '../data/LafMockData.json';
 import eventMor from '../data/MoravianMockData.json';
 import SearchEvents from './SearchEvents';
 
+
 const EventManager = ({ initialSchool = '' }) => {
     const [searchTerm, setSearchTerm] = useState('');
     const [schoolFilter, setSchoolFilter] = useState(initialSchool);
@@ -38,9 +39,9 @@ const EventManager = ({ initialSchool = '' }) => {
             );
         }
 
-         if (categoryFilter) { // Apply category filter if set
-                    filtered = filtered.filter(event => event.categories && event.categories.includes(categoryFilter));
-                }
+        if (categoryFilter) { // Apply category filter if set
+            filtered = filtered.filter(event => event.categories && event.categories.includes(categoryFilter));
+        }
 
         if (timeFilter) {
             filtered = filtered.filter(event => new Date(event.startsOn) >= new Date(timeFilter));
@@ -51,18 +52,45 @@ const EventManager = ({ initialSchool = '' }) => {
     }, [searchTerm, schoolFilter, timeFilter, categoryFilter]); // Include categoryFilter in dependency array
 
     return (
-        <div>
-            <SearchEvents
-                setSearchTerm={setSearchTerm}
-                events={combinedEvents}
+        <div className="event-manager">
+            <SearchEventsContainer setSearchTerm={setSearchTerm} events={combinedEvents} />
+            <FilteredEventsContainer
+                filteredEvents={filteredEvents}
+                setSchoolFilter={setSchoolFilter}
+                setTimeFilter={setTimeFilter}
+                categoryFilter={categoryFilter}
+                setCategoryFilter={setCategoryFilter}
+                allowSchoolFilterChange={!initialSchool}
             />
+        </div>
+    );
+}
+
+const SearchEventsContainer = ({ setSearchTerm, events }) => {
+    return (
+        <div className="search-events-container">
+            <SearchBar setSearchTerm={setSearchTerm} events={events} />
+        </div>
+    );
+}
+
+const FilteredEventsContainer = ({
+    filteredEvents,
+    setSchoolFilter,
+    setTimeFilter,
+    categoryFilter,
+    setCategoryFilter,
+    allowSchoolFilterChange
+}) => {
+    return (
+        <div className="filtered-events-container">
             <FilteredEvents
                 filteredEvents={filteredEvents}
                 setSchoolFilter={setSchoolFilter}
                 setTimeFilter={setTimeFilter}
-                categoryFilter={categoryFilter} // Pass categoryFilter down to FilteredEvents
-                setCategoryFilter={setCategoryFilter} // Pass setCategoryFilter down to FilteredEvents
-                allowSchoolFilterChange={!initialSchool}
+                categoryFilter={categoryFilter}
+                setCategoryFilter={setCategoryFilter}
+                allowSchoolFilterChange={allowSchoolFilterChange}
             />
         </div>
     );

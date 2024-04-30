@@ -3,16 +3,15 @@ import { useParams } from 'react-router-dom';
 import eventData from './Event.json';
 import eventTData from './EventT.json';
 import eventLaf from './LafMockData.json';
-import eventMor from './MoravianMockData.json'; 
-import './EventDetail.css';
-import NavBar from '../components/NavBar';
+import eventMor from './MoravianMockData.json';
+import './EventDetail.css'; // Import the CSS file
+
 const EventDetail = () => {
     const { id } = useParams();
-    // Assuming each JSON file has an 'items' array, we combine all items into a single array.
     const eventsData = [
-        ...eventData.items, 
-        ...eventTData.items, 
-        ...eventLaf.items, 
+        ...eventData.items,
+        ...eventTData.items,
+        ...eventLaf.items,
         ...eventMor.items
     ];
     const event = eventsData.find(event => event.id.toString() === id);
@@ -22,12 +21,10 @@ const EventDetail = () => {
     }
 
     return (
-      
-        <div className="event-detail"> 
-         <NavBar/>
-            <h1>{event.name}</h1> {/* Event title */}
-            <h2>{event.organizer}</h2> {/* Event organizer */}
-            <p>{event.description}</p> {/* Event description */}
+        <div className="event-detail">
+            <h1>{event.name}</h1>
+            <h2>{event.organizer}</h2>
+            <p>{event.description}</p>
             {event.imageUrl && (
                 <img src={event.imageUrl} className="event-image" alt={event.title} />
             )}
