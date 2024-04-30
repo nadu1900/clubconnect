@@ -1,0 +1,38 @@
+.why-club-connect {
+    text-align: center; /* Center the header */
+    padding: 20px; /* Add some padding around the content */
+}
+
+.header {
+    margin-bottom: 30px; 
+    /* Space below the header */
+    position: center;
+    text-align: center;
+    background-color: #f8f9fa;
+    color: darkblue;
+}
+
+.content {
+    display: flex; /* Enable flexbox layout */
+    justify-content: space-between; /* Distribute space between paragraphs */
+    align-items: center; /* Align paragraphs vertically */
+}
+
+.paragraph {
+    flex: 1; /* Each paragraph takes equal width */
+    margin: 0 20px; /* Add horizontal space between paragraphs */
+    padding: 10px; /* Padding inside paragraphs */
+    text-align: justify; /* Justify text for better readability */
+}
+
+.left {
+    text-align: left; /* Text align left for the left paragraph */
+}
+
+.center {
+    text-align: center; /* Text align center for the middle paragraph */
+}
+
+.right {
+    text-align: right; /* Text align right for the right paragraph */
+}

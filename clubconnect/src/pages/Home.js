@@ -14,6 +14,7 @@ import banner6 from '../data/schoolimages/banner6.jpeg';
 import banner7 from '../data/schoolimages/banner7.jpeg';
 import { Link } from 'react-router-dom';
 import OrganizationContainer from './OrgsContainer';
+import WhyClubConnect from '../components/WhyCC';
 
 const banners = [banner, banner2, banner3, banner4, banner5, banner6, banner7];
 export default function Home() {
@@ -41,8 +42,12 @@ export default function Home() {
       </div>
       
       <SearchBar />
+      <WhyClubConnect/>
+      <h2 className='fea'> Our Featured Events </h2>
       <EventContainer />
-      {/* <OrganizationContainer /> */}
+      <h2 className='fea'>Our Featured Clubs</h2>
+      <OrganizationContainer />
+      <h2 className='fea'>Our Network</h2>
       <div className="school-container">
         {SchoolData.map((school, index) => (
           <Link key={school.id} to={`/schools/${school.slug}`} className="school-card">
