@@ -46,6 +46,9 @@ const OrgDetail = () => {
             {organization.imageUrl && (
                 <img src={organization.imageUrl} className="organization-image" alt={organization.name} />
             )}
+            <p> Contact info: </p>
+            <p> organization.</p>
+        
 
             <h3>Related Events</h3>
             {relatedEvents.length > 0 ? (
