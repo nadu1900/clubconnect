@@ -8,7 +8,7 @@ import './OrgsContainer.css';
 const OrganizationContainer = () => {
   const organizations = [...orgData.items, ...orgLaf.items, ...orgMor.items];
   const [currentIndex, setCurrentIndex] = useState(0);
-  const orgsPerPage = 4;
+  const orgsPerPage = 6;
 
   const nextOrgs = () => {
     const maxIndex = Math.ceil(organizations.length / orgsPerPage) - 1;
