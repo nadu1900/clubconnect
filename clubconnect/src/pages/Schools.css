@@ -1,18 +1,42 @@
-
-.school-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
-    gap: 20px; 
-    justify-content: center; 
-    padding: 20px;
-    
-}
-
-
-.school-card img {
-    width: 100%;
-    height: 200px; 
-    object-fit: cover; 
-    border-radius: 10px; 
-}
+.school-container-s {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .school-card-s {
+    margin: 10px;
+    padding: 60px;
+    background-color: #f8f9fa;
+    border-radius: 25px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    text-align: center;
+  }
+  
+  .school-card-s:hover {
+    transform: translateY(-5px);
+  }
+  
+  .school-card-s img {
+    display: block;
+    margin: 0 auto 10px;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 70%;
+  }
+  
+  .school-name-s {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3rem;
+    color: #121a76;
+    margin-bottom: 10px;
+  }
+  
+  .school-info {
+    margin-bottom: 10px;
+    font-size: 0.9rem;
+    color: #3549b8;
+  }
   

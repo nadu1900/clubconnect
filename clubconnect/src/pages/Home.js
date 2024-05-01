@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { SchoolData } from '../data/SchoolData';
 import '../styles/Home.css';
-import '../styles/SchoolData.css';
 import NavBar from '../components/NavBar';
 import SearchBar from '../components/SearchBar';
 import EventContainer from './EventContainer';
@@ -42,22 +41,18 @@ export default function Home() {
         ))}
       </div>
       <SearchBar />
-      <WhyClubConnect/>
+      <WhyClubConnect />
       <h2 className='fea'> Our Featured Events </h2>
       <EventContainer />
       <OrganizationContainer />
+      <h2 className='fea'> Our Featured Schools </h2>
       <div className="school-container">
         {SchoolData.map((school, index) => (
           <Link key={school.id} to={`/schools/${school.slug}`} className="school-card">
-            <div>
-              <img src={school.image} alt={school.name} />
-              <h3>{school.name}</h3>
-              <p>{school.location}</p>
-              <p>{school.description}</p>
-            </div>
+            <img src={school.image} alt={school.name} className="school-logo" />
+            <h3 className="school-name">{school.name}</h3>
           </Link>
         ))}
-     
       </div>
     </>
   );
