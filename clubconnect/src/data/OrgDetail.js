@@ -8,7 +8,7 @@ import eventTData from './EventT.json';
 import eventLaf from './LafMockData.json';
 import eventMor from './MoravianMockData.json'; 
 import NavBar from '../components/NavBar';
-
+import './OrgDetail.css';
 const OrgDetail = () => {
 
  const { id } = useParams();
@@ -40,7 +40,7 @@ const OrgDetail = () => {
     return (
         <div className="organization-detail">
             <NavBar />
-            <h1>{organization.name}</h1>
+            <h1 className='hea'>{organization.name}</h1>
             <h2>{organization.type}</h2>
             <p>{organization.description}</p>
             {organization.imageUrl && (
@@ -50,7 +50,13 @@ const OrgDetail = () => {
             <p> organization.</p>
         
 
+            <p> Contact info 
+            <p> {organization.contactInfo.email}<br></br>
+            {organization.contactInfo.phone} </p>
+           </p>
+
             <h3>Related Events</h3>
+            <div className='related-events-container'>
             {relatedEvents.length > 0 ? (
                 relatedEvents.map(event => (
                     <Link to={`/event/${event.id}`} key={event.id} className="related-event">
@@ -64,7 +70,7 @@ const OrgDetail = () => {
             ) : (
                 <p>No events found for this organization.</p>
             )}
-        </div>
+        </div></div>
     );
 };
 

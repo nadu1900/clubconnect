@@ -7,7 +7,7 @@
 }
 
 .dropbtn {
-  background-color: #7a95ae;
+  background-color: rgb(32, 32, 184);
   color: white;
   padding: 25px;
   font-size: 18px;
@@ -17,7 +17,7 @@
 }
 
 .dropbtn.active {
-  background-color: #4a5d85;
+  background-color: rgb(47, 47, 241);
 }
 
 .dropdown-content {

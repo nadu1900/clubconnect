@@ -1,0 +1,55 @@
+.why-club-connect {
+    text-align: center; 
+    padding: 20px;
+    background: linear-gradient(to bottom, #f8f9fa, #fefefe); /* Gradient background */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow */
+}
+
+
+.header {
+    margin-bottom: 30px; 
+    text-align: center;
+    background-color: #f8f9fa;
+    color: darkblue;
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 2.4rem; 
+    font-weight: bold; 
+}
+
+
+.content {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+.paragraph {
+    flex: 1; 
+    margin: 20px; 
+    padding: 10px;
+    text-align: justify; 
+    font-weight: 550;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+
+}
+
+.left {
+    text-align: left; 
+}
+
+.center {
+    text-align: center; 
+}
+
+.right {
+    text-align: right; 
+}
+
+.left:hover,
+.center:hover,
+.right:hover {
+    transform: scale(1.05) rotate(3deg); 
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); 
+    border-radius: 3px; 
+}

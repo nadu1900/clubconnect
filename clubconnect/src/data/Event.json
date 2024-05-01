@@ -66,16 +66,29 @@
         "institutionId": 3928,
         "organizationId": 26278,
         "submittedByOrganizationId": 26278,
-        "organizationIds": [
-          26278
-        ],
+        "organizationIds": [26278],
         "eventSubmissionId": 0,
         "imageUrl": "https://resourceboy.com/wp-content/uploads/2023/07/modern-colorful-karaoke-night-flyer-template-thumbnail.jpg",
         "name": "Site Leader Training",
         "description": "Join us for an evening of karaoke and fun, as we train future site leaders for community projects.",
         "startsOn": "2009-09-03T18:00:00+00:00",
         "endsOn": "2009-09-03T20:00:00+00:00",
-        "address": null,
+        "address": {
+          "locationId": null,
+          "name": "Registration is at Iacocca Hall!",
+          "address": null,
+          "line1": null,
+          "line2": null,
+          "city": null,
+          "state": null,
+          "zip": null,
+          "latitude": null,
+          "longitude": null,
+          "onlineLocation": null,
+          "instructions": null,
+          "roomReservation": null,
+          "provider": null
+        },
         "theme": "Unknown",
         "benefits": [],
         "categories": ["Community"],
@@ -103,7 +116,7 @@
         "hasSentRatingNotifications": false,
         "evaluationQuestions": null,
         "allowDisplayOnTranscript": false
-      },
+      },      
       {
         "id": 39839,
         "institutionId": 3928,

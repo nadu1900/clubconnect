@@ -20,11 +20,19 @@
   .event-detail p {
     font-size: 16px;
     margin-bottom: 20px;
+    line-height: 1.5;
+
   }
+
   .event-detail img {
-    max-width: 100%; 
+    max-width: 60%; 
     height: auto;
     display: block;
-    margin-top: 20px;
+    margin: 0 auto 20px auto; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s ease-in-out;
   }
   
+  .event-detail img:hover {
+    transform: scale(1.05); 
+  }
