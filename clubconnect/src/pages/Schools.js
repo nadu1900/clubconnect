@@ -1,23 +1,25 @@
-import React from 'react';
-import { SchoolData } from '../data/SchoolData';
-import { Link } from 'react-router-dom';
 import NavBar from "../components/NavBar";
 import SearchBar from "../components/SearchBar";
+import { SchoolData } from '../data/SchoolData';
+import { Link } from 'react-router-dom';
+import banner from '../data/schoolimages/banner.jpeg';
 import '../pages/Schools.css';
+
+
+
 
 export default function Schools() {
   return (
-    <>
-      <NavBar />
-      <SearchBar />
-      <div className="school-container-s"> {/* Unique class name */}
+    <>      
+      <div className="school-container">
+      <img src={banner} alt="Banner" className="banner" />
         {SchoolData.map((school, index) => (
-          <Link key={school.id} to={`/schools/${school.slug}`} className="school-card-s"> {/* Unique class name */}
+           <Link key={index} to={`/schools/${school.slug}`} className="school-card">
             <div>
-              <img src={school.image} alt={school.name} className="school-logo-s" /> {/* Unique class name */}
-              <h3 className="school-name-s">{school.name}</h3> {/* Unique class name */}
-              <p className="school-info">{school.location}</p>
-              <p className="school-info">{school.description}</p>
+              <img src={school.image} alt={school.name} />
+              <h3>{school.name}</h3>
+              <p>{school.location}</p>
+              <p>{school.description}</p>
             </div>
           </Link>
         ))}
