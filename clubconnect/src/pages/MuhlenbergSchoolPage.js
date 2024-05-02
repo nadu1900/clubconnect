@@ -1,10 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import NavBar from '../components/NavBar';
 
 
 const MuhlenbergSchoolPage = () => {
     return (
-      <div className="school-page">
+      <div className="school-page"> <h1>Club Connect</h1>
+      <NavBar />
         <header>
           <h1 className="school-name">Muhlenberg University</h1>
         </header>

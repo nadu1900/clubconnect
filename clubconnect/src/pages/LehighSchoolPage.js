@@ -3,10 +3,13 @@ import { Link } from 'react-router-dom';
 import './LehighSchoolPage.css';
 import LehighData from "../data/LehighData";
 import EventManager from "../components/EventManager";
+import NavBar from '../components/NavBar';
 
 const LehighSchoolPage = () => {
   return (
     <div className="school-page">
+      <h1>Club Connect</h1>
+      <NavBar/>
       <header>
         <h1 className="school-name">Lehigh University</h1>
       </header>

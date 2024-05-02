@@ -8,6 +8,7 @@ import '../pages/Schools.css';
 export default function Schools() {
   return (
     <>
+     <h1>ClubConnect</h1>
       <NavBar />
       <SearchBar />
       <div className="school-container-s"> {/* Unique class name */}
