@@ -21,7 +21,7 @@ const EventManager = ({ initialSchool = '' }) => {
         console.log(`Filtering for school: ${schoolFilter}`);
 
         setFilteredEvents([]);
-
+       
         let filtered = combinedEvents.filter(event =>
             event.name.toLowerCase().includes(searchTerm.toLowerCase())
         );
@@ -48,6 +48,8 @@ const EventManager = ({ initialSchool = '' }) => {
             filtered = filtered.filter(event => new Date(event.startsOn) >= new Date(timeFilter));
         }
 
+  
+
         // Set filtered events
         setFilteredEvents(filtered);
     }, [searchTerm, schoolFilter, timeFilter, categoryFilter]); // Include categoryFilter in dependency array
@@ -70,7 +72,7 @@ const EventManager = ({ initialSchool = '' }) => {
 const SearchEventsContainer = ({ setSearchTerm, events }) => {
     return (
         <div className="search-events-container">
-            <SearchBar setSearchTerm={setSearchTerm} events={events} />
+            <SearchEvents setSearchTerm={setSearchTerm} events={events} />
         </div>
     );
 }

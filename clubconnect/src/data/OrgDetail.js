@@ -46,14 +46,12 @@ const OrgDetail = () => {
             {organization.imageUrl && (
                 <img src={organization.imageUrl} className="organization-image" alt={organization.name} />
             )}
-            <p> Contact info: </p>
-            <p> organization.</p>
-        
-
-            <p> Contact info 
-            <p> {organization.contactInfo.email}<br></br>
-            {organization.contactInfo.phone} </p>
-           </p>
+         
+<div className='contact'>
+            <h3>Contact info:
+           <p> {organization.contactInfo.email}<br></br>
+            {organization.contactInfo.phone} </p></h3>
+       </div>
 
             <h3>Related Events</h3>
             <div className='related-events-container'>

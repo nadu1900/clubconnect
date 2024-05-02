@@ -1,24 +1,17 @@
-.pagination-controls button {
-  background-color: #007bff;
+
+.pagination-arrow {
+  position: absolute;
+  background-color: transparent;
   border: none;
-  color: white;
-  padding: 10px 20px;
+  font-size: 24px;
   cursor: pointer;
+  color: #333;
 }
 
-.pagination-controls button[disabled] {
-  background-color: #ccc;
-  cursor: not-allowed;
+.pagination-arrow.left {
+  left: 0;
 }
 
-.pagination-controls button span {
-  margin-right: 5px;
-}
-
-.pagination-controls button:first-child span {
-  margin-right: 10px;
-}
-
-.pagination-controls button + button {
-  margin-left: 10px; /* Adjust the spacing as needed */
+.pagination-arrow.right {
+  right: 0;
 }

@@ -27,7 +27,9 @@ const EventContainer = () => {
   );
 
   return (
-    <div>
+    <div>  <button className="pagination-arrow left" onClick={prevEvents} disabled={currentIndex === 0}>
+        &#8592;
+      </button>
       <div className="event-container">
         {currentEvents.map(event => (
           <Link to={`/event/${event.id}`} key={event.id} className="event-card">
@@ -40,15 +42,12 @@ const EventContainer = () => {
             )}
           </Link>
         ))}
-      </div>
-      <div className="pagination-controls">
-        <button onClick={prevEvents} disabled={currentIndex === 0}>
-          <span>&#8592;</span> Previous
-        </button>
-        <button onClick={nextEvents} disabled={(currentIndex + 1) * eventsPerPage >= events.length}>
-          Next <span>&#8594;</span>
-        </button>
-      </div>
+
+    
+      </div>      <button className="pagination-arrow right" onClick={nextEvents} disabled={(currentIndex + 1) * eventsPerPage >= events.length}>
+        &#8594;
+      </button>
+   
     </div>
   );
 };

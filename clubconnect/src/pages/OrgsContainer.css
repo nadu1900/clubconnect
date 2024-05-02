@@ -45,3 +45,20 @@
 .org-desc {
   display: none; /* Continues to hide the description */
 }
+
+.pagination-arrow {
+  position: absolute;
+  background-color: transparent;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: #333;
+}
+
+.pagination-arrow.left {
+  left: 0;
+}
+
+.pagination-arrow.right {
+  right: 0;
+}

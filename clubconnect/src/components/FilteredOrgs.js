@@ -40,7 +40,7 @@ const FilteredOrgs = ({ filteredOrgs, setSchoolFilter, setTimeFilter, setCategor
             {/* Organizations display area */}
             <div className="org-container">
                 {filteredOrgs.map(org => (
-                    <Link to={`/org/${org.id}`} key={org.id} className="org-card">
+                    <Link to={`/organization/${org.organizationId}`} key={org.organizationId} className="org-card">
                         <div className="org-info">
                             <h2 className="org-name">{org.name}</h2>
                             <p className="org-desc">{org.description}</p>

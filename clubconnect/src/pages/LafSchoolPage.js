@@ -1,11 +1,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import EventManager from '../components/EventManager';
+import NavBar from '../components/NavBar';
 
 
 const LafSchoolPage = () => {
     return (
-      <div className="school-page">
+
+      <div className="school-page"><h1>ClubConnect</h1> 
+      <NavBar/>
         <header>
           <h1 className="school-name">Lafayette College</h1>
         </header>

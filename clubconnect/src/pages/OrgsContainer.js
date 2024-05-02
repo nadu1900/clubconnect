@@ -8,7 +8,7 @@ import './OrgsContainer.css';
 const OrganizationContainer = () => {
   const organizations = [...orgData.items, ...orgLaf.items, ...orgMor.items];
   const [currentIndex, setCurrentIndex] = useState(0);
-  const orgsPerPage = 6;
+  const orgsPerPage = 4;
 
   const nextOrgs = () => {
     const maxIndex = Math.ceil(organizations.length / orgsPerPage) - 1;
@@ -26,6 +26,9 @@ const OrganizationContainer = () => {
 
   return (
     <div>
+   <button className="pagination-arrow left" onClick={prevOrgs} disabled={currentIndex === 0}>
+                &#8592;
+                  </button> 
       <div className="org-container">
         {currentOrgs.map(org => (
           <Link to={`/organization/${org.organizationId}`} key={org.organizationId} className="org-card">
@@ -38,14 +41,13 @@ const OrganizationContainer = () => {
             )}
           </Link>
         ))}
+
       </div>
+       <button className="pagination-arrow right" onClick={nextOrgs} disabled={(currentIndex + 1) * orgsPerPage >= organizations.length}>
+              &#8594;
+            </button>
       <div className="pagination-controls">
-        <button onClick={prevOrgs} disabled={currentIndex === 0}>
-          <span>&#8592;</span> Previous
-        </button>
-        <button onClick={nextOrgs} disabled={(currentIndex + 1) * orgsPerPage >= organizations.length}>
-          Next <span>&#8594;</span>
-        </button>
+ 
       </div>
     </div>
   );
