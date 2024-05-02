@@ -6,7 +6,6 @@ function EventDisplay() {
   const [events, setEvents] = useState([]);
 
   useEffect(() => {
-    // Set the events data from the local JSON file
     setEvents(eventData.items);
   }, []);
 
@@ -14,7 +13,6 @@ function EventDisplay() {
     <div className="eventContainer">
       <div className="header">
         <h1 className="title">Upcoming Events</h1>
-        {/* Add any additional header elements if needed */}
       </div>
       <div className="eventList">
         {events.map(event => (
@@ -26,7 +24,6 @@ function EventDisplay() {
               )}
               <p className="eventDescription">{event.description}</p>
               <p className="eventDate">{new Date(event.date).toDateString()}</p>
-              {/* Add more details about the event if necessary */}
             </div>
           </div>
         ))}

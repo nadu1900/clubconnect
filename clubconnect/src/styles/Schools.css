@@ -6,9 +6,9 @@
   
   .school-card-s {
     margin: 10px;
-    padding: 60px;
-    background-color: #f8f9fa;
-    border-radius: 25px;
+    padding: 80px;
+    background-color: #bedcfa;
+    border-radius: 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease-in-out;
     text-align: center;
@@ -24,7 +24,7 @@
     width: 100px;
     height: 100px;
     object-fit: cover;
-    border-radius: 70%;
+    border-radius: 0%;
   }
   
   .school-name-s {

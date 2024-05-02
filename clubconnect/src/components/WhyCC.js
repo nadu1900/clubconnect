@@ -1,5 +1,6 @@
 import React from 'react';
-import './WhyCC.css'; // Make sure to create this CSS file
+import "../styles/WhyCC.css";
+
 
 const WhyClubConnect = () => {
     return (

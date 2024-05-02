@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import './SearchBar.css';
 import { useHistory, useNavigate } from 'react-router-dom';
 import eventData from '../data/Event.json';
 import eventTData from '../data/EventT.json';
@@ -8,6 +7,8 @@ import eventMor from '../data/MoravianMockData.json';
 import orgLaf from '../data/LafOrgs.json'; 
 import orgMor from '../data/MoravianOrgs.json'; 
 import orgLeh from '../data/LehighOrgs.json';
+import "../styles/SearchBar.css";
+
 
 const SearchBar = () => {
     const [searchTerm, setSearchTerm] = useState('');

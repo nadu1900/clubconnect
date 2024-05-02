@@ -1,49 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap');
 
-#about-container {
+body {
+    font-family: 'Oswald', sans-serif;
+  }
+  
+  #about-container {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
     text-align: center;
-}
-
-.about-box {
+  }
+  
+  .about-box {
     background-color: #f9fcfe;
     border: 1px solid #bdc4ca;
     border-radius: 8px;
     padding: 30px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.testimonials-section {
+  }
+  
+  .testimonials-section {
     margin-top: 40px;
-}
-
-.testimonial {
+  }
+  
+  .testimonial {
     margin-bottom: 20px;
-}
-
-.quote {
+  }
+  
+  .quote {
     font-style: italic;
-}
-
-.name {
+  }
+  
+  .name {
     font-weight: bold;
-}
-
-.statistics-section {
+  }
+  
+  .statistics-section {
     margin-top: 40px;
-}
-
-.statistics {
+  }
+  
+  .statistics {
     display: flex;
     justify-content: space-around;
-}
-
-.call-to-action {
+  }
+  
+  .call-to-action {
     margin-top: 40px;
-}
-
-.join-button {
+  }
+  
+  .join-button {
     padding: 10px 20px;
     background-color: #2777c1;
     color: white;
@@ -51,8 +56,9 @@
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
-}
-
-.join-button:hover {
+  }
+  
+  .join-button:hover {
     background-color: #1f3c8d;
-}
+  }
+  

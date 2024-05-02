@@ -30,6 +30,12 @@ export default function Events() {
             location: "Moravian College",
             imageUrl: "https://concept3d.com/wp-content/uploads/2023/11/Students-performing-at-an-open-mic-night-one-of-the-most-popular-college-campus-event-ideas.jpg",
         },
+        {
+            title: "Spring Festival & Music Concert",
+            date: "April 28, 2024",
+            location: "Moravian College",
+            imageUrl: "https://www.vancopayments.com/hubfs/Cheerful%20group%20of%20kids%20at%20school%20room%20having%20education%20activity.jpeg",
+        },
     ];
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
 

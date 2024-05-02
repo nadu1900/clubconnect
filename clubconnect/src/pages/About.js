@@ -17,7 +17,6 @@ export default function About() {
         }
     ];
 
-    // Mock data for statistics
     const statistics = {
         clubsRegistered: 120,
         eventsOrganized: 300,
@@ -33,7 +32,6 @@ export default function About() {
                 <p>Our Mission: Club Connect was founded with a singular mission in mind: to bridge the gap between the diverse clubs and organizations that enrich the academic and social fabric of the Lehigh Valley.</p>
                 <p>Why Club Connect? Unity in Diversity, Community Empowerment, Seamless Experience.</p>
                 
-                {/* Testimonials section */}
                 <div className="testimonials-section">
                     <h2>What Our Members Say</h2>
                     {testimonials.map((testimonial, index) => (
@@ -45,7 +43,6 @@ export default function About() {
                     ))}
                 </div>
 
-                {/* Statistics section */}
                 <div className="statistics-section">
                     <h2>Club Connect By The Numbers</h2>
                     <div className="statistics">
@@ -55,7 +52,6 @@ export default function About() {
                     </div>
                 </div>
 
-                {/* Call to Action */}
                 <div className="call-to-action">
                     <h2>Ready to Get Started?</h2>
                     <p>Join Club Connect today and become a part of our thriving community!</p>

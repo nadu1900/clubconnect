@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-
 const SearchEvents = ({ setSearchTerm, events }) => {
     const [inputValue, setInputValue] = useState('');
 

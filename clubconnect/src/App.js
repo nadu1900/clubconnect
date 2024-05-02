@@ -9,7 +9,6 @@ import LehighSchoolPage from './pages/LehighSchoolPage'; // Import the LehighSch
 import LafSchoolPage from './pages/LafSchoolPage'; // Import the LehighSchoolPage component
 import MoravianSchoolPage from './pages/MoravianSchoolPage';
 import MuhlenbergSchoolPage from './pages/MuhlenbergSchoolPage';
-import CombinedEvents from './data/CombinedEvents';
 import EventDetail from './data/EventDetail';
 import OrgDetail from './data/OrgDetail';
 

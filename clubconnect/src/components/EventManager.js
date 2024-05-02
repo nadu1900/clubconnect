@@ -6,7 +6,6 @@ import eventTData from '../data/EventT.json';
 import eventLaf from '../data/LafMockData.json';
 import eventMor from '../data/MoravianMockData.json';
 import SearchEvents from './SearchEvents';
-import './EventManager.css';
 
 
 const EventManager = ({ initialSchool = '' }) => {

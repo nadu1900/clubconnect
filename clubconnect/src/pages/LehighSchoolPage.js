@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './LehighSchoolPage.css';
+import '../styles/LehighSchoolPage.css';
 import LehighData from "../data/LehighData";
 import EventManager from "../components/EventManager";
 import NavBar from '../components/NavBar';

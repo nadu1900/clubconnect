@@ -44,6 +44,7 @@ export default function Home() {
       <WhyClubConnect />
       <h2 className='fea'> Our Featured Events </h2>
       <EventContainer />
+      <h2 className='fea'> Our Featured Organization </h2>
       <OrganizationContainer />
       <h2 className='fea'> Our Featured Schools </h2>
       <div className="school-container">

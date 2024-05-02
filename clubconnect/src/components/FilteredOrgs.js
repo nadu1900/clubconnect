@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import "./FilteredOrgs.css"; // Assuming you have similar styling as FilteredEvents
+import "../styles/FilteredOrgs.css";
 
 const FilteredOrgs = ({ filteredOrgs, setSchoolFilter, setTimeFilter, setCategoryFilter, allowSchoolFilterChange }) => {
     return (
